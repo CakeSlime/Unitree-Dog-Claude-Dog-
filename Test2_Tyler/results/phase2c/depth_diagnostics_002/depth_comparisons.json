@@ -1,0 +1,174 @@
+[
+  {
+    "trial": "occluded_001",
+    "frame": 3,
+    "legacy_upper_range_m": 2.9042043425518744,
+    "sample_pixel": [
+      136.33454132080078,
+      215.54290008544922
+    ],
+    "legacy_central_ranges_m": [
+      2.0812936693087276
+    ],
+    "lidar_planar_range_near_observed_bearing_m": 2.3866851329803467,
+    "references": {
+      "visual": {
+        "ray_m": 3.0562119019809963,
+        "horizontal_m": 3.0421607047476225,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "collision": {
+        "ray_m": 2.9080464311395775,
+        "horizontal_m": 2.894676437409344,
+        "geom": "living_room_task_chair_0_static_collision",
+        "body": "living_room_task_chair_0",
+        "robot_self_hit": false
+      },
+      "centre_visual": {
+        "ray_m": 3.064322435475701,
+        "horizontal_m": 3.0624577577992182,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "centre_collision": {
+        "ray_m": 2.1405284328038823,
+        "horizontal_m": 2.1392258950753726,
+        "geom": "living_room_bed_0_static_collision",
+        "body": "living_room_bed_0",
+        "robot_self_hit": false
+      }
+    }
+  },
+  {
+    "trial": "occluded_20261110",
+    "frame": 155,
+    "legacy_upper_range_m": 0.17196047214403648,
+    "sample_pixel": [
+      277.9934387207031,
+      197.89916610717773
+    ],
+    "legacy_central_ranges_m": [
+      0.17101063643367512
+    ],
+    "lidar_planar_range_near_observed_bearing_m": 0.4910827875137329,
+    "references": {
+      "visual": {
+        "ray_m": 4.167795368352342,
+        "horizontal_m": 4.1514487475325215,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "collision": {
+        "ray_m": 0.17268991489622726,
+        "horizontal_m": 0.17201260319814077,
+        "geom": "living_room_floor_lamp_0_static_collision",
+        "body": "living_room_floor_lamp_0",
+        "robot_self_hit": false
+      },
+      "centre_visual": {
+        "ray_m": 4.1552018027043784,
+        "horizontal_m": 4.148257429277142,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "centre_collision": {
+        "ray_m": 0.1723040558790478,
+        "horizontal_m": 0.1720160930402098,
+        "geom": "living_room_floor_lamp_0_static_collision",
+        "body": "living_room_floor_lamp_0",
+        "robot_self_hit": false
+      }
+    }
+  },
+  {
+    "trial": "visible_20261110",
+    "frame": 49,
+    "legacy_upper_range_m": 1.0391082844798458,
+    "sample_pixel": [
+      321.88170623779297,
+      134.41376113891602
+    ],
+    "legacy_central_ranges_m": [
+      1.039580718648469
+    ],
+    "lidar_planar_range_near_observed_bearing_m": 1.360331416130066,
+    "references": {
+      "visual": {
+        "ray_m": 1.161493020760517,
+        "horizontal_m": 1.1274614285597626,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "collision": {
+        "ray_m": 1.0718164136491481,
+        "horizontal_m": 1.040412334200182,
+        "geom": "living_room_task_chair_0_static_collision",
+        "body": "living_room_task_chair_0",
+        "robot_self_hit": false
+      },
+      "centre_visual": {
+        "ray_m": 1.113906491218452,
+        "horizontal_m": 1.1132410974819626,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "centre_collision": {
+        "ray_m": 1.0410315633978362,
+        "horizontal_m": 1.040409701610304,
+        "geom": "living_room_task_chair_0_static_collision",
+        "body": "living_room_task_chair_0",
+        "robot_self_hit": false
+      }
+    }
+  },
+  {
+    "trial": "near_20261110",
+    "frame": 68,
+    "legacy_upper_range_m": 1.0441834777639245,
+    "sample_pixel": [
+      323.37667083740234,
+      137.23637771606445
+    ],
+    "legacy_central_ranges_m": [
+      1.044088463828697
+    ],
+    "lidar_planar_range_near_observed_bearing_m": 1.3644133806228638,
+    "references": {
+      "visual": {
+        "ray_m": 1.1649699380343197,
+        "horizontal_m": 1.1315024236752416,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "collision": {
+        "ray_m": 1.0753188735483652,
+        "horizontal_m": 1.044426874822809,
+        "geom": "living_room_task_chair_0_static_collision",
+        "body": "living_room_task_chair_0",
+        "robot_self_hit": false
+      },
+      "centre_visual": {
+        "ray_m": 1.1181192235299762,
+        "horizontal_m": 1.1175300936967232,
+        "geom": "living_room_task_chair_0_base_link_visual_visual",
+        "body": "living_room_task_chair_0_base_link",
+        "robot_self_hit": false
+      },
+      "centre_collision": {
+        "ray_m": 1.0449811087612484,
+        "horizontal_m": 1.0444305149306428,
+        "geom": "living_room_task_chair_0_static_collision",
+        "body": "living_room_task_chair_0",
+        "robot_self_hit": false
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[0;93m2026-11-09 18:16:10.249126132 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+{
+  "trial": "Test2_Tyler/data/sample/demo_001",
+  "frames": 69,
+  "checksum_files_verified": 216,
+  "timestamps_aligned": true,
+  "sim_interval_s": 0.2,
+  "task_states_and_requested_commands_reproduced": true,
+  "yolo_reinference_matches": true,
+  "minimum_valid_depth_fraction": 1.0,
+  "minimum_lidar_scan_returns": 720,
+  "success": true,
+  "final_state": "complete"
+}

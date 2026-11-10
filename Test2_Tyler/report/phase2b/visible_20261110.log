@@ -1,0 +1,59 @@
+[0;93m2026-11-10 08:34:40.488625608 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 confirm: confirming
+t=0.4 approach: visual_approach
+t=3.2 approach: target_missing_stop
+t=3.4 approach: visual_approach
+t=4.2 approach: target_missing_stop
+t=4.4 approach: visual_approach
+t=4.6 approach: target_missing_stop
+t=4.8 approach: visual_approach
+t=5.4 approach: target_missing_stop
+t=5.6 approach: visual_approach
+t=7.0 approach: target_missing_stop
+t=7.2 approach: visual_approach
+t=9.4 inspect: holding_for_inspection
+t=9.8 complete: inspection_ready
+{
+  "success": true,
+  "reason": "inspection_ready",
+  "final_state": "complete",
+  "initially_detected": true,
+  "first_detection_s": 0.0,
+  "confirmed_s": 0.40000000000000036,
+  "duration_sim_s": 9.800000000000441,
+  "wall_time_s": 20.10389623499998,
+  "frames": 50,
+  "path_m": 0.8376839239726598,
+  "net_displacement_m": 0.5542786501948531,
+  "search_forward_steps": 0,
+  "planned_vantages": [],
+  "target_loss_recoveries": 0,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9984352996534751,
+  "safety_intervention_steps": 0,
+  "phase_counts": {
+    "confirm": 2,
+    "approach": 45,
+    "inspect": 2,
+    "complete": 1
+  },
+  "detection_confidence_mean": 0.5996569024191962,
+  "detection_confidence_max": 0.8256540298461914,
+  "inspection_range_m": 1.0391082844798458,
+  "standoff_estimate_error_m": 0.08910828447984587,
+  "scoring_only_reference": {
+    "reference_ray_range_m": 1.161493020760517,
+    "ray_hit_chair": true,
+    "range_error_m": -0.08835314407991679,
+    "reference_horizontal_range_m": 1.1274614285597626,
+    "reference_definition": "single visual-mesh ray at YOLO-box centre; scoring only"
+  },
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + sensor-map frontier/coverage, not a detector proxy or PPO"
+}

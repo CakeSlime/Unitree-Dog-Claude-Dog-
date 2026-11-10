@@ -1,0 +1,81 @@
+DEBUG Searching for user configuration in: `/home/tyler/.config/uv/uv.toml`
+DEBUG uv 0.12.21 (x86_64-unknown-linux-gnu)
+DEBUG Checking for Python interpreter at path `.venv/bin/python`
+DEBUG Using Python 3.12.14 environment at: .venv
+DEBUG At least one requirement is not satisfied: gymnasium==1.4.0
+DEBUG Using request connect timeout of 10s and read timeout of 15s
+DEBUG Solving with installed Python version: 3.12.14
+DEBUG Solving with target Python version: >=3.12.14
+DEBUG Adding direct dependency: gymnasium>=1.4.0, <1.4.0+
+DEBUG Found fresh response for: https://pypi.org/simple/gymnasium/
+DEBUG Searching for a compatible version of gymnasium (>=1.4.0, <1.4.0+)
+DEBUG Selecting: gymnasium==1.4.0 [compatible] (gymnasium-1.4.0-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/38/4e/6a51be94ae8e9dc8eaddd6ea74a6dde754448c4c746b51a232681f81e41c/gymnasium-1.4.0-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for gymnasium==1.4.0: numpy>=1.22.0
+DEBUG Adding transitive dependency for gymnasium==1.4.0: cloudpickle>=1.2.0
+DEBUG Adding transitive dependency for gymnasium==1.4.0: typing-extensions>=4.12.0
+DEBUG Adding transitive dependency for gymnasium==1.4.0: farama-notifications>=0.0.1
+DEBUG Found fresh response for: https://pypi.org/simple/cloudpickle/
+DEBUG Found fresh response for: https://pypi.org/simple/typing-extensions/
+DEBUG Found fresh response for: https://pypi.org/simple/farama-notifications/
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/7c/f0/21f81892e4ed10f4ec3ef2e7cf8635fb76e7c0907c55d0da66be50094760/farama_notifications-0.0.6-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://pypi.org/simple/numpy/
+DEBUG Searching for a compatible version of numpy (>=1.22.0)
+DEBUG Selecting: numpy==2.5.4 [installed] (installed)
+DEBUG Searching for a compatible version of cloudpickle (>=1.2.0)
+DEBUG Selecting: cloudpickle==3.1.2 [compatible] (cloudpickle-3.1.2-py3-none-any.whl)
+DEBUG Searching for a compatible version of typing-extensions (>=4.12.0)
+DEBUG Selecting: typing-extensions==4.16.0 [installed] (installed)
+DEBUG Searching for a compatible version of farama-notifications (>=0.0.1)
+DEBUG Selecting: farama-notifications==0.0.6 [compatible] (farama_notifications-0.0.6-py3-none-any.whl)
+DEBUG Tried 5 versions: cloudpickle 1, farama-notifications 1, gymnasium 1, numpy 1, typing-extensions 1
+DEBUG marker environment resolution took 0.004s
+Resolved 5 packages in 5ms
+DEBUG Requirement already installed: numpy==2.5.4
+DEBUG Identified uncached distribution: cloudpickle==3.1.2
+DEBUG Identified uncached distribution: gymnasium==1.4.0
+DEBUG Identified uncached distribution: farama-notifications==0.0.6
+DEBUG Requirement already installed: typing-extensions==4.16.0
+DEBUG Unnecessary package: absl-py==2.5.1
+DEBUG Unnecessary package: coloredlogs==15.0.1
+DEBUG Unnecessary package: etils==1.15.0
+DEBUG Unnecessary package: filelock==4.2.4
+DEBUG Unnecessary package: flatbuffers==25.12.19
+DEBUG Unnecessary package: fsspec==2026.9.0
+DEBUG Unnecessary package: glfw==2.11.0
+DEBUG Unnecessary package: humanfriendly==10.0
+DEBUG Unnecessary package: iniconfig==2.3.1
+DEBUG Unnecessary package: jinja2==3.1.6
+DEBUG Unnecessary package: markupsafe==3.0.3
+DEBUG Unnecessary package: mpmath==1.3.0
+DEBUG Unnecessary package: mujoco==3.3.7
+DEBUG Unnecessary package: networkx==3.7
+DEBUG Unnecessary package: onnxruntime==1.23.2
+DEBUG Unnecessary package: opencv-python-headless==5.0.0.93
+DEBUG Unnecessary package: packaging==26.3
+DEBUG Unnecessary package: pillow==13.0.0
+DEBUG Unnecessary package: pluggy==1.7.0
+DEBUG Unnecessary package: protobuf==7.36.2
+DEBUG Unnecessary package: pygments==2.21.0
+DEBUG Unnecessary package: pyopengl==3.1.10
+DEBUG Unnecessary package: pytest==9.2.0
+DEBUG Unnecessary package: pyyaml==6.0.3
+DEBUG Unnecessary package: setuptools==78.1.0
+DEBUG Unnecessary package: sympy==1.14.0
+DEBUG Unnecessary package: torch==2.15.0+cpu
+DEBUG Unnecessary package: zipp==4.1.2
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/38/4e/6a51be94ae8e9dc8eaddd6ea74a6dde754448c4c746b51a232681f81e41c/gymnasium-1.4.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://files.pythonhosted.org/packages/38/4e/6a51be94ae8e9dc8eaddd6ea74a6dde754448c4c746b51a232681f81e41c/gymnasium-1.4.0-py3-none-any.whl
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/7c/f0/21f81892e4ed10f4ec3ef2e7cf8635fb76e7c0907c55d0da66be50094760/farama_notifications-0.0.6-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://files.pythonhosted.org/packages/7c/f0/21f81892e4ed10f4ec3ef2e7cf8635fb76e7c0907c55d0da66be50094760/farama_notifications-0.0.6-py3-none-any.whl
+Prepared 3 packages in 25.97s
+DEBUG Failed to reflink `/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/.cache/uv/archive-v0/wcKyCvGV9iXlyxEu/cloudpickle-3.1.2.dist-info/RECORD` to `/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/.venv/lib/python3.12/site-packages/cloudpickle-3.1.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/.cache/uv/archive-v0/JIQZTk6fJUEbt_yq/farama_notifications/__init__.py` to `/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/.venv/lib/python3.12/site-packages/farama_notifications/__init__.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/.cache/uv/archive-v0/ItGpS1PQM6l5UOmr/gymnasium/envs/toy_text/img/goal_flag.png` to `/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/.venv/lib/python3.12/site-packages/gymnasium/envs/toy_text/img/goal_flag.png`: Operation not supported (os error 95), falling back
+Installed 3 packages in 20ms
+ + cloudpickle==3.1.2
+ + farama-notifications==0.0.6
+ + gymnasium==1.4.0

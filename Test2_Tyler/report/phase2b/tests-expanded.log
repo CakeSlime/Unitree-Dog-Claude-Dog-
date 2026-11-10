@@ -1,0 +1,32 @@
+..........F.s                                                            [100%]
+=================================== FAILURES ===================================
+____________ test_sensor_planner_avoids_obstacles_and_unknown_space ____________
+
+    def test_sensor_planner_avoids_obstacles_and_unknown_space():
+        from Test2_Tyler.q1_vision.sensor_map import OccupancyGrid,CostField
+        g=OccupancyGrid((0,0),(3,3),.1)
+        g.logodds[:]=-1.2;g.seen[:]=True
+        g.logodds[5:20,14:16]=3.
+        cost=g.costmap(robot_radius=.2)
+        f=CostField(g,cost,(.5,1.))
+>       path=f.path_to(g.to_cell((2.5,1.)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Test2_Tyler/tests/test_phase2b.py:112: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Test2_Tyler.q1_vision.sensor_map.CostField object at 0x7f99d916f3b0>
+rc = (array(10), array(25))
+
+    def path_to(self,rc):
+        rc=tuple(rc)
+        if not np.isfinite(self.cum[rc]):return None
+        cells=[rc]
+>       while cells[-1]!=self.start:cells.append(self.parents[cells[-1]])
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: unhashable type: 'numpy.ndarray'
+
+Test2_Tyler/q1_vision/sensor_map.py:91: TypeError
+=========================== short test summary info ============================
+FAILED Test2_Tyler/tests/test_phase2b.py::test_sensor_planner_avoids_obstacles_and_unknown_space
+1 failed, 11 passed, 1 skipped in 0.37s

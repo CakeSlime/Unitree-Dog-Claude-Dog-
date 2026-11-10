@@ -1,0 +1,30 @@
+title: Autonomous Indoor Object Search and Inspection Using the Unitree Go2
+seed: 601021
+simulation:
+  environment: scenesmith_house_185
+  spawn: [4.88, 1.1, 0.0]
+  settle_s: 1.5
+  dt: 0.2
+  camera_size: [640, 480]
+  chair_pose: [4.88, 3.35, 0.0]
+detector:
+  target_class: chair
+  confidence: 0.30
+task:
+  min_confidence: 0.30
+  confirm_frames: 3
+  inspect_frames: 3
+  standoff_m: 0.95
+  distance_tolerance_m: 0.10
+  max_forward_mps: 0.18
+  max_yaw_rps: 0.35
+  scan_yaw_rps: 0.30
+  max_time_s: 35.0
+  deadline_tolerance_s: 0.00000001
+  target_lost_s: 2.0
+  blocked_timeout_s: 2.0
+  continuity_gate_m: 0.65
+  max_frame_age_s: 0.3
+  corridor_half_width_m: 0.28
+  body_front_m: 0.35
+  obstacle_margin_m: 0.22

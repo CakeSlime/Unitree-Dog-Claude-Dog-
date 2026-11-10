@@ -1,0 +1,46 @@
+[0;93m2026-11-09 18:14:16.592323563 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0s search: scanning
+t=3.6s confirm: confirming
+t=4.0s approach: visual_approach
+t=11.6s inspect: holding_for_inspection
+t=11.8s approach: visual_approach
+t=13.2s inspect: holding_for_inspection
+t=13.6s complete: inspection_ready
+{
+  "success": true,
+  "final_state": "complete",
+  "reason": "inspection_ready",
+  "frames": 69,
+  "duration_sim_s": 13.60000000000171,
+  "wall_time_s": 24.01197795600001,
+  "states": {
+    "search": 18,
+    "confirm": 2,
+    "approach": 45,
+    "inspect": 3,
+    "complete": 1
+  },
+  "path_m": 1.0098443615453936,
+  "start_pose": [
+    4.878864224243048,
+    1.0999998381878564
+  ],
+  "end_pose": [
+    4.870058022908683,
+    1.6448198985114,
+    1.5724057156073115
+  ],
+  "min_upright": 0.9958973558461391,
+  "contact_steps": 0,
+  "safety_intervention_steps": 0,
+  "mean_inference_s": 0.0912858543622966,
+  "inspection_range_m": 1.0493780251869276,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "stationary_gate_sha256": "d2cc4b39b9413caba1387be6b460cb876fe209211854ebfbfee7ca18f60170c4",
+  "simulation_only": true,
+  "policy": "Tyler classical visual state machine; PPO not trained"
+}

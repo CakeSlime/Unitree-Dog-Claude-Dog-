@@ -1,0 +1,11 @@
+{
+  "trial": "Test2_Tyler/data/phase2c/forward_search_001",
+  "frames": 276,
+  "files_verified": 1127,
+  "sensor_timestamps_valid": true,
+  "path_reaggregated": true,
+  "inspection_conditions_checked": true,
+  "success": false,
+  "yolo_reinference_matches": true,
+  "final_command_zero": true
+}

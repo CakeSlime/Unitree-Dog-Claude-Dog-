@@ -1,0 +1,92 @@
+{
+  "format": "tyler-object-search-1",
+  "started_utc": "2026-11-10T00:16:48.341070+00:00",
+  "simulation_only": true,
+  "clock": "synchronized simulation seconds; wall_elapsed_s separate",
+  "config": {
+    "title": "Autonomous Indoor Object Search and Inspection Using the Unitree Go2",
+    "seed": 601021,
+    "simulation": {
+      "environment": "scenesmith_house_185",
+      "spawn": [
+        4.88,
+        1.1,
+        0.0
+      ],
+      "settle_s": 1.5,
+      "dt": 0.2,
+      "camera_size": [
+        640,
+        480
+      ],
+      "chair_pose": [
+        4.88,
+        3.35,
+        0.0
+      ]
+    },
+    "detector": {
+      "target_class": "chair",
+      "confidence": 0.3
+    },
+    "task": {
+      "min_confidence": 0.3,
+      "confirm_frames": 3,
+      "inspect_frames": 3,
+      "standoff_m": 0.95,
+      "distance_tolerance_m": 0.1,
+      "max_forward_mps": 0.18,
+      "max_yaw_rps": 0.35,
+      "scan_yaw_rps": 0.3,
+      "max_time_s": 1.0,
+      "target_lost_s": 2.0,
+      "blocked_timeout_s": 2.0,
+      "continuity_gate_m": 0.65,
+      "max_frame_age_s": 0.3,
+      "corridor_half_width_m": 0.28,
+      "body_front_m": 0.35,
+      "obstacle_margin_m": 0.22
+    }
+  },
+  "model_sha256": "a77dd863933f184a19e84361c64b788228a7c7dacc2c78939239a96ad3efca3b",
+  "status": "finished",
+  "git_revision": "adf00d308ce3633de357eed05d5e9e0e299ec38e",
+  "controller": "shared physical scripted trot (no trained high-level policy)",
+  "depth": "optical z, float32 metres; inf is invalid; raycast 160x120 upsampled to RGB",
+  "frames": 7,
+  "outcome": {
+    "success": false,
+    "final_state": "failed",
+    "reason": "task_timeout",
+    "frames": 7,
+    "duration_sim_s": 1.1999999999999231,
+    "wall_time_s": 4.389980978000494,
+    "states": {
+      "search": 6,
+      "failed": 1
+    },
+    "path_m": 0.04818744652016706,
+    "start_pose": [
+      4.878864224243048,
+      1.0999998381878564
+    ],
+    "end_pose": [
+      4.87866314661149,
+      1.091261184259598,
+      0.44959417290027326
+    ],
+    "min_upright": 0.9958973558461391,
+    "contact_steps": 0,
+    "safety_intervention_steps": 0,
+    "mean_inference_s": 0.0976753798570696,
+    "inspection_range_m": null,
+    "final_applied_command": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stationary_gate_sha256": "d2cc4b39b9413caba1387be6b460cb876fe209211854ebfbfee7ca18f60170c4",
+    "simulation_only": true,
+    "policy": "Tyler classical visual state machine; PPO not trained"
+  }
+}

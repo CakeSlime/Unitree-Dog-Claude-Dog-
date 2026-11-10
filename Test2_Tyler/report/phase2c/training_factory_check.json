@@ -1,0 +1,12 @@
+{
+  "environment": "Test2_Tyler.q3_rl.feasible_env.FeasibleSearchEnv",
+  "observations": [
+    38
+  ],
+  "max_steps": 1200,
+  "camera_offset_m": 0.32,
+  "sb3_checker_passed": true,
+  "policy_interface_passed": true,
+  "training_performed": false,
+  "weights_unchanged": true
+}

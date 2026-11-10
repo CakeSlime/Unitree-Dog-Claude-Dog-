@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/Test2_Tyler/q3_rl/train_smoke.py", line 95, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/Test2_Tyler/q3_rl/train_smoke.py", line 91, in main
+    r=train(a.out,a.steps,a.seed)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/Test2_Tyler/q3_rl/train_smoke.py", line 19, in train
+    import stable_baselines3 as sb3
+ModuleNotFoundError: No module named 'stable_baselines3'

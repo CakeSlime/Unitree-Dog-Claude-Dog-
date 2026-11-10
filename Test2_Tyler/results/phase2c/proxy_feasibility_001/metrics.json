@@ -1,0 +1,37 @@
+{
+  "protocol": "detector PROXY; new seeds, paired starts, no PPO training",
+  "seed": 902031,
+  "episodes_per_setting": 8,
+  "wall_s": 6.276236060999963,
+  "settings": {
+    "legacy_reactive_180": {
+      "successes": 0,
+      "collisions": 4,
+      "mean_path_m": 3.730580067964737,
+      "mean_return": -1.3772031271569443,
+      "mean_coverage_cells": 18.625
+    },
+    "legacy_scan_180": {
+      "successes": 3,
+      "collisions": 0,
+      "mean_path_m": 1.339792235608197,
+      "mean_return": 6.157907978549325,
+      "mean_coverage_cells": 7.375
+    },
+    "legacy_scan_1200": {
+      "successes": 6,
+      "collisions": 1,
+      "mean_path_m": 6.6913762309170615,
+      "mean_return": 7.916223183807981,
+      "mean_coverage_cells": 32.375
+    },
+    "calibrated_scan_1200": {
+      "successes": 6,
+      "collisions": 1,
+      "mean_path_m": 4.201268951584363,
+      "mean_return": 11.001998323928785,
+      "mean_coverage_cells": 20.5
+    }
+  },
+  "paired_starts_verified": true
+}

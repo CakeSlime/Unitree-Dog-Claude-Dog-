@@ -1,0 +1,124 @@
+{
+  "config": {
+    "title": "Autonomous Indoor Object Search and Inspection Using the Unitree Go2",
+    "seed": 601021,
+    "simulation": {
+      "environment": "scenesmith_house_185",
+      "spawn": [
+        2.8,
+        3.35,
+        0.0
+      ],
+      "settle_s": 1.5,
+      "dt": 0.2,
+      "camera_size": [
+        640,
+        480
+      ],
+      "chair_pose": [
+        4.88,
+        3.35,
+        -1.5707963267948966
+      ],
+      "hide_chair": false,
+      "calibration_room": true,
+      "room_obstacles": [
+        [
+          4.0,
+          2.3,
+          1.0,
+          0.15,
+          0.65,
+          1.0
+        ]
+      ],
+      "context_backdrop": true,
+      "context_bed_pose": [
+        3.0,
+        4.7
+      ]
+    },
+    "detector": {
+      "target_class": "chair",
+      "confidence": 0.3
+    },
+    "task": {
+      "min_confidence": 0.3,
+      "confirm_frames": 3,
+      "inspect_frames": 3,
+      "standoff_m": 0.95,
+      "distance_tolerance_m": 0.1,
+      "max_forward_mps": 0.18,
+      "max_yaw_rps": 0.35,
+      "scan_yaw_rps": 0.3,
+      "max_time_s": 55,
+      "deadline_tolerance_s": 1e-08,
+      "target_lost_s": 2.0,
+      "blocked_timeout_s": 2.0,
+      "continuity_gate_m": 0.65,
+      "max_frame_age_s": 0.3,
+      "corridor_half_width_m": 0.28,
+      "body_front_m": 0.35,
+      "obstacle_margin_m": 0.22
+    },
+    "exploration": {
+      "map_range_m": 2.8
+    }
+  },
+  "detections": [
+    {
+      "cls_id": 56,
+      "name": "chair",
+      "conf": 0.7859532833099365,
+      "bbox": [
+        189.88690185546875,
+        96.68109130859375,
+        409.8551025390625,
+        356.3950500488281
+      ],
+      "distance_m": null,
+      "xyz_cam": null,
+      "xyz_body": null,
+      "n_depth_points": 0,
+      "xyz_world": null,
+      "source": "yolo",
+      "edge_clipped": false
+    }
+  ],
+  "quality": [
+    {
+      "bbox": [
+        189.88690185546875,
+        96.68109130859375,
+        409.8551025390625,
+        356.3950500488281
+      ],
+      "accepted": true,
+      "valid_fraction": 1.0,
+      "sample_pixel": [
+        320.0,
+        146.0
+      ],
+      "depth_z_m": 1.5035209655761719,
+      "spread_m": 0.0019758939743041992,
+      "component_support": 12157,
+      "background_z_m": 2.831918239593506,
+      "component_z_m": 1.5234274864196777,
+      "reason": "valid",
+      "range_m": 1.503205341244139,
+      "uncertainty_m": 0.025
+    }
+  ],
+  "model_sha256": "a77dd863933f184a19e84361c64b788228a7c7dacc2c78939239a96ad3efca3b",
+  "contacts": 0,
+  "scoring_only_references": [
+    {
+      "reference_ray_range_m": 1.5409909909777035,
+      "ray_hit_chair": true,
+      "range_error_m": 9.232796269409427e-05,
+      "reference_horizontal_range_m": 1.503113013281445,
+      "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+    }
+  ],
+  "passed": true
+}

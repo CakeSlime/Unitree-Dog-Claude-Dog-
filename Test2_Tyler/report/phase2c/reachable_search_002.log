@@ -1,0 +1,168 @@
+[0;93m2026-11-10 09:40:11.354429805 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 search: frontier_travel
+t=4.0 search: vantage_camera_sweep
+t=10.0 search: frontier_travel
+t=13.6 search: vantage_scan
+t=15.2 search: frontier_travel
+t=33.4 search: vantage_camera_sweep
+t=38.6 confirm: confirming
+t=39.0 approach: mapped_visual_approach
+t=41.8 approach: target_missing_stop
+t=42.0 approach: mapped_visual_approach
+t=45.4 approach: target_missing_stop
+t=47.2 search: partial_yolo_centering_only
+t=47.8 search: candidate_reacquisition_hold
+t=55.0 failed: task_timeout
+{
+  "controller_complete": false,
+  "success": false,
+  "reason": "task_timeout",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 38.60000000000304,
+  "confirmed_s": 39.00000000000353,
+  "duration_sim_s": 55.000000000023086,
+  "wall_time_s": 100.38039066799956,
+  "frames": 276,
+  "path_m": 5.206331052890572,
+  "net_displacement_m": 2.428859194207913,
+  "search_forward_steps": 91,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        3.000716302216197,
+        2.398863938833525
+      ],
+      "source": "observed-free initial heading"
+    },
+    {
+      "t": 11.50000000000051,
+      "xy": [
+        0.34999925736362414,
+        2.048864224474305
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 16.700000000001623,
+      "xy": [
+        0.9499992573636242,
+        3.8488642244743048
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 48.9000000000138,
+      "xy": [
+        0.4499992573636242,
+        0.6488642244743046
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 1,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.990592385114656,
+  "safety_intervention_steps": 4,
+  "phase_counts": {
+    "search": 232,
+    "confirm": 2,
+    "approach": 41,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.7105451636924976,
+  "detection_confidence_max": 0.8549433946609497,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + rendered registered RGBD + sensor-map exploration; not PPO/proxy",
+  "range_rejections": 12,
+  "observed_surface_approach_goals": [
+    {
+      "t": 40.50000000000353,
+      "observed_surface": [
+        4.620513394064216,
+        3.318094035311581
+      ],
+      "goal": [
+        3.3377602428459427,
+        3.1070387036101756
+      ]
+    },
+    {
+      "t": 41.50000000000475,
+      "observed_surface": [
+        4.622723461954655,
+        3.3536483413319322
+      ],
+      "goal": [
+        3.3409905414293926,
+        3.1364831497339636
+      ]
+    },
+    {
+      "t": 42.500000000005976,
+      "observed_surface": [
+        4.621337868569564,
+        3.3554368199652465
+      ],
+      "goal": [
+        3.3421469591539736,
+        3.123767622037436
+      ]
+    },
+    {
+      "t": 43.5000000000072,
+      "observed_surface": [
+        4.62017023671117,
+        3.3465250483770723
+      ],
+      "goal": [
+        3.3405207314095593,
+        3.1174024969305933
+      ]
+    },
+    {
+      "t": 44.50000000000842,
+      "observed_surface": [
+        4.622373537933175,
+        3.3190844773615296
+      ],
+      "goal": [
+        3.340901370132352,
+        3.1003858647645153
+      ]
+    },
+    {
+      "t": 45.50000000000964,
+      "observed_surface": [
+        4.620437076848123,
+        3.36365499312824
+      ],
+      "goal": [
+        3.344241454559569,
+        3.116016680964048
+      ]
+    },
+    {
+      "t": 46.500000000010864,
+      "observed_surface": [
+        4.62007899602148,
+        3.355682358422465
+      ],
+      "goal": [
+        3.3456555444436393,
+        3.099079813484922
+      ]
+    }
+  ],
+  "standoff_definition": "horizontal camera-optical-centre to measured visible chair surface at recorded sample_pixel; 0.95 +/- 0.10 m, uncertainty interval inside band"
+}

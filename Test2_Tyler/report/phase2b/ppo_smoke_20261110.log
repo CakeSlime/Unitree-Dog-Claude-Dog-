@@ -1,0 +1,58 @@
+{
+  "detector": "FOV/occlusion/dropout proxy; not YOLO",
+  "seed": 601022,
+  "requested_steps": 2048,
+  "actual_steps": 2048,
+  "ppo_updates": 32,
+  "wall_s": 2.8132680610000307,
+  "torch": "2.15.0+cpu",
+  "sb3": "2.9.2",
+  "weights_changed_l2": 1.0966352224349976,
+  "weights_finite": true,
+  "gradients_finite": true,
+  "last_gradient_norm": 0.4999992981640997,
+  "finite_logged_losses": true,
+  "checkpoint_count": 4,
+  "reload_inference_ok": true,
+  "final_model_sha256": "68708256c32d4a1722f8ea9f480004fa27101db4493ab1d243612d82bd16496d",
+  "useful_learning_claim": false,
+  "environment_config": {
+    "dt": 0.2,
+    "max_steps": 180,
+    "lidar_rays": 24,
+    "sensor_range": 3.0,
+    "detect_range": 2.7,
+    "half_fov": 0.61,
+    "dropout": 0.08,
+    "radius": 0.25,
+    "standoff": 0.95,
+    "tolerance": 0.15,
+    "confirm_frames": 3,
+    "inspect_frames": 3,
+    "reward": {
+      "explore": 0.25,
+      "discover": 1.0,
+      "confirm": 3.0,
+      "progress": 1.0,
+      "inspect": 15.0,
+      "collision": 5.0,
+      "time": 0.02,
+      "smooth": 0.015
+    }
+  },
+  "hyperparameters": {
+    "n_steps": 128,
+    "batch_size": 64,
+    "n_epochs": 2,
+    "lr": 0.0003,
+    "net_arch": [
+      64,
+      64
+    ],
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "entropy": 0.01,
+    "device": "cpu"
+  },
+  "smoke_passed": true
+}

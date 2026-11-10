@@ -1,0 +1,170 @@
+[0;93m2026-11-09 19:46:19.168634734 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 search: frontier_travel
+t=14.8 confirm: confirming
+t=15.0 search: frontier_travel
+t=15.8 confirm: confirming
+t=16.2 approach: visual_approach
+t=16.4 approach: target_missing_stop
+t=17.0 approach: visual_approach
+t=17.4 approach: target_missing_stop
+t=17.6 approach: visual_approach
+t=17.8 approach: target_missing_stop
+t=18.0 approach: visual_approach
+t=18.2 approach: target_missing_stop
+t=18.4 approach: visual_approach
+t=18.6 approach: target_missing_stop
+t=19.4 approach: visual_approach
+t=20.4 approach: target_missing_stop
+t=20.8 inspect: holding_for_inspection
+t=21.0 inspect: target_missing_stop
+t=21.4 inspect: holding_for_inspection
+t=21.6 inspect: target_missing_stop
+t=23.2 inspect: holding_for_inspection
+t=23.4 inspect: target_missing_stop
+t=25.4 search: target_lost_recovery
+t=25.6 search: frontier_travel
+t=35.0 failed: task_timeout
+{
+  "success": false,
+  "reason": "task_timeout",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 14.800000000001843,
+  "confirmed_s": 16.20000000000107,
+  "duration_sim_s": 34.99999999999864,
+  "wall_time_s": 60.74852740499955,
+  "frames": 176,
+  "path_m": 3.2243573998005486,
+  "net_displacement_m": 1.1082706876172579,
+  "search_forward_steps": 72,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        6.129131206542843,
+        2.450731563069777
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 3.699999999999814,
+      "xy": [
+        2.4291312065428436,
+        2.150731563069777
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 5.899999999999572,
+      "xy": [
+        6.529131206542844,
+        1.8507315630697763
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 8.099999999999374,
+      "xy": [
+        6.529131206542844,
+        1.7507315630697766
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 10.100000000000042,
+      "xy": [
+        7.929131206542844,
+        1.9507315630697768
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 12.10000000000071,
+      "xy": [
+        2.4291312065428436,
+        2.2507315630697766
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 14.100000000001378,
+      "xy": [
+        2.4291312065428436,
+        2.2507315630697766
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 16.100000000001955,
+      "xy": [
+        2.4291312065428436,
+        2.2507315630697766
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 27.09999999999586,
+      "xy": [
+        2.4291312065428436,
+        2.2507315630697766
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 29.29999999999464,
+      "xy": [
+        2.4291312065428436,
+        2.2507315630697766
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 31.49999999999342,
+      "xy": [
+        2.4291312065428436,
+        2.2507315630697766
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 33.49999999999498,
+      "xy": [
+        2.1291312065428434,
+        2.5507315630697764
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 35.49999999999742,
+      "xy": [
+        1.9291312065428436,
+        2.8507315630697763
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 1,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9960699699722553,
+  "safety_intervention_steps": 4,
+  "phase_counts": {
+    "search": 126,
+    "confirm": 3,
+    "approach": 23,
+    "inspect": 23,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.39002690381473964,
+  "detection_confidence_max": 0.6097056865692139,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + sensor-map frontier/coverage, not a detector proxy or PPO"
+}

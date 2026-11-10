@@ -1,0 +1,51 @@
+[0;93m2026-11-09 19:16:23.327834100 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 search: frontier_travel
+t=0.6 confirm: confirming
+t=1.0 approach: visual_approach
+t=1.6 approach: target_missing_stop
+t=3.6 failed: target_lost
+{
+  "success": false,
+  "reason": "target_lost",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 0.5999999999999892,
+  "confirmed_s": 0.9999999999999452,
+  "duration_sim_s": 3.5999999999996595,
+  "wall_time_s": 10.471944738001184,
+  "frames": 19,
+  "path_m": 0.061212839222514394,
+  "net_displacement_m": 0.021754667405717697,
+  "search_forward_steps": 0,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        1.0464600108100575,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9989074732046135,
+  "safety_intervention_steps": 0,
+  "phase_counts": {
+    "search": 3,
+    "confirm": 2,
+    "approach": 13,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.7103688716888428,
+  "detection_confidence_max": 0.8584722280502319,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + sensor-map frontier/coverage, not a detector proxy or PPO"
+}

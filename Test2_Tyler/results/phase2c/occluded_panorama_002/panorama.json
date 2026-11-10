@@ -1,0 +1,192 @@
+{
+  "protocol": "evaluation-only frozen-base sweep, 24 headings; no navigation",
+  "settled_base_xy": [
+    0.9999992573636186,
+    0.9988642244743088
+  ],
+  "max_chair_visual_pixels": 0,
+  "total_yolo_detections": 0,
+  "headings": [
+    {
+      "yaw": -3.141592653589793,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -2.8797932657906435,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -2.6179938779914944,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -2.356194490192345,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -2.0943951023931957,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -1.8325957145940461,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -1.5707963267948966,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -1.3089969389957472,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -1.0471975511965979,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -0.7853981633974483,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -0.5235987755982991,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": -0.2617993877991496,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 0.0,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 0.26179938779914913,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 0.5235987755982987,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 0.7853981633974478,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 1.0471975511965974,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 1.3089969389957465,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 1.5707963267948966,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 1.8325957145940457,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 2.094395102393195,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 2.356194490192345,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 2.617993877991494,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    },
+    {
+      "yaw": 2.879793265790643,
+      "accepted_yolo_chairs": 0,
+      "chair_visual_pixels": 0
+    }
+  ],
+  "config": {
+    "title": "Autonomous Indoor Object Search and Inspection Using the Unitree Go2",
+    "seed": 601021,
+    "simulation": {
+      "environment": "scenesmith_house_185",
+      "spawn": [
+        1.0,
+        1.0,
+        1.57
+      ],
+      "settle_s": 1.5,
+      "dt": 0.2,
+      "camera_size": [
+        640,
+        480
+      ],
+      "chair_pose": [
+        4.4,
+        3.5,
+        -1.5707963267948966
+      ],
+      "hide_chair": false,
+      "calibration_room": true,
+      "room_obstacles": [
+        [
+          2.5,
+          1.3,
+          1.0,
+          0.1,
+          1.3,
+          1.0
+        ]
+      ]
+    },
+    "detector": {
+      "target_class": "chair",
+      "confidence": 0.3
+    },
+    "task": {
+      "min_confidence": 0.3,
+      "confirm_frames": 3,
+      "inspect_frames": 3,
+      "standoff_m": 0.95,
+      "distance_tolerance_m": 0.1,
+      "max_forward_mps": 0.18,
+      "max_yaw_rps": 0.35,
+      "scan_yaw_rps": 0.3,
+      "max_time_s": 65,
+      "deadline_tolerance_s": 1e-08,
+      "target_lost_s": 2.0,
+      "blocked_timeout_s": 2.0,
+      "continuity_gate_m": 0.65,
+      "max_frame_age_s": 0.3,
+      "corridor_half_width_m": 0.28,
+      "body_front_m": 0.35,
+      "obstacle_margin_m": 0.22
+    },
+    "exploration": {
+      "map_range_m": 2.8
+    }
+  }
+}

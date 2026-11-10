@@ -1,0 +1,95 @@
+[
+  {
+    "trial": "occluded_001",
+    "frame": 3,
+    "elapsed_s": 0.5999999999999892,
+    "detections": [
+      {
+        "cls_id": 56,
+        "name": "chair",
+        "conf": 0.6123943328857422,
+        "bbox": [
+          91.09014892578125,
+          187.79251098632812,
+          181.5789337158203,
+          298.7940673828125
+        ],
+        "distance_m": null,
+        "xyz_cam": null,
+        "xyz_body": null,
+        "n_depth_points": 0,
+        "xyz_world": null,
+        "source": "yolo"
+      }
+    ],
+    "central_depth_range_m": [
+      2.0812936693087276
+    ],
+    "upper_depth_range_m": [
+      2.9042043425518744
+    ],
+    "note": "Recorded measured depth, not a semantic mesh measurement. Different pixels are not guaranteed to hit chair."
+  },
+  {
+    "trial": "occluded_20261110",
+    "frame": 3,
+    "elapsed_s": 0.5999999999999892,
+    "detections": [
+      {
+        "cls_id": 56,
+        "name": "chair",
+        "conf": 0.6123943328857422,
+        "bbox": [
+          91.09014892578125,
+          187.79251098632812,
+          181.5789337158203,
+          298.7940673828125
+        ],
+        "distance_m": null,
+        "xyz_cam": null,
+        "xyz_body": null,
+        "n_depth_points": 0,
+        "xyz_world": null,
+        "source": "yolo"
+      }
+    ],
+    "central_depth_range_m": [
+      2.0812936693087276
+    ],
+    "upper_depth_range_m": [
+      2.9042043425518744
+    ],
+    "note": "Recorded measured depth, not a semantic mesh measurement. Different pixels are not guaranteed to hit chair."
+  },
+  {
+    "trial": "occluded_20261110",
+    "frame": 155,
+    "elapsed_s": 30.999999999993754,
+    "detections": [
+      {
+        "cls_id": 56,
+        "name": "chair",
+        "conf": 0.4933006167411804,
+        "bbox": [
+          248.94638061523438,
+          184.95098876953125,
+          307.0404968261719,
+          236.7436981201172
+        ],
+        "distance_m": null,
+        "xyz_cam": null,
+        "xyz_body": null,
+        "n_depth_points": 0,
+        "xyz_world": null,
+        "source": "yolo"
+      }
+    ],
+    "central_depth_range_m": [
+      0.17101063643367512
+    ],
+    "upper_depth_range_m": [
+      0.17196047214403648
+    ],
+    "note": "Recorded measured depth, not a semantic mesh measurement. Different pixels are not guaranteed to hit chair."
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "protocol": "frozen old checkpoint / old task / deterministic inference ONLY",
+  "model_sha256": "68708256c32d4a1722f8ea9f480004fa27101db4493ab1d243612d82bd16496d",
+  "episodes": [
+    {
+      "seed": 902031,
+      "success": false,
+      "collision": true,
+      "steps": 174,
+      "path_m": 0.5231140022919218,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.08408466379704146,
+      "mean_abs_normalized_yaw": 0.03487585273025365,
+      "detected_frames": 0
+    },
+    {
+      "seed": 902032,
+      "success": false,
+      "collision": false,
+      "steps": 180,
+      "path_m": 1.0728429643505946,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.16606775373220445,
+      "mean_abs_normalized_yaw": 0.030810389760881664,
+      "detected_frames": 0
+    },
+    {
+      "seed": 902033,
+      "success": false,
+      "collision": false,
+      "steps": 180,
+      "path_m": 0.9954757402374208,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.15413853286041154,
+      "mean_abs_normalized_yaw": 0.02339935616279642,
+      "detected_frames": 0
+    },
+    {
+      "seed": 902034,
+      "success": false,
+      "collision": false,
+      "steps": 180,
+      "path_m": 0.9856388600839276,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.1526287590463956,
+      "mean_abs_normalized_yaw": 0.022231174151723584,
+      "detected_frames": 0
+    },
+    {
+      "seed": 902035,
+      "success": false,
+      "collision": false,
+      "steps": 180,
+      "path_m": 1.0849340085391879,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.16804387503200108,
+      "mean_abs_normalized_yaw": 0.013923999718907806,
+      "detected_frames": 0
+    },
+    {
+      "seed": 902036,
+      "success": false,
+      "collision": false,
+      "steps": 180,
+      "path_m": 1.094793281578391,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.1695253880487548,
+      "mean_abs_normalized_yaw": 0.012145792302261624,
+      "detected_frames": 0
+    },
+    {
+      "seed": 902037,
+      "success": false,
+      "collision": true,
+      "steps": 148,
+      "path_m": 0.7543579078919165,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.14255354603802836,
+      "mean_abs_normalized_yaw": 0.028257120476179832,
+      "detected_frames": 0
+    },
+    {
+      "seed": 902038,
+      "success": false,
+      "collision": false,
+      "steps": 180,
+      "path_m": 0.83669785250812,
+      "forward_command_fraction": 1.0,
+      "mean_normalized_forward": 0.1295410354932149,
+      "mean_abs_normalized_yaw": 0.025409545614901517,
+      "detected_frames": 0
+    }
+  ]
+}

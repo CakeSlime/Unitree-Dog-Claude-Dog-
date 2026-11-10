@@ -1,0 +1,4 @@
+error: Request failed after 2 retries in 41.9s
+  cause: Failed to fetch: `https://pypi.org/simple/fonttools/`
+  cause: error sending request for url (https://pypi.org/simple/fonttools/)
+  cause: operation timed out

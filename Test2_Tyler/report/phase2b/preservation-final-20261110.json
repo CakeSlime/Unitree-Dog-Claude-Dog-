@@ -1,0 +1,23 @@
+{
+  "branch": "engr6010-second-test",
+  "backup": ".local-assets/recovery/phase2b_20261110_0830.tar.gz",
+  "backup_manifest_files": 2396,
+  "backup_archive_hash_verification": "all 2396 members passed before implementation",
+  "preserved_prior_data_results_docs_gitignore": 2315,
+  "changed_prior_evidence": [],
+  "baseline_files_verified": 1770,
+  "baseline_changes": [],
+  "group_Test2_files_verified": 1468,
+  "write_probes": {
+    ".": "write and fsync succeeded",
+    ".venv": "write and fsync succeeded",
+    ".cache/uv": "write and fsync succeeded",
+    ".tmp": "write and fsync succeeded"
+  },
+  "meminfo": {
+    "MemTotal": "7798692 kB",
+    "MemAvailable": "5624868 kB",
+    "SwapFree": "2096548 kB"
+  },
+  "note": "Local backup remains on the same WSL filesystem; no Git commit or remote backup was created."
+}

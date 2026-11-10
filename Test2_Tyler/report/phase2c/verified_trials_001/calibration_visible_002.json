@@ -1,0 +1,11 @@
+{
+  "trial": "Test2_Tyler/data/phase2c/calibration_visible_002",
+  "frames": 42,
+  "files_verified": 196,
+  "sensor_timestamps_valid": true,
+  "path_reaggregated": true,
+  "inspection_conditions_checked": true,
+  "success": true,
+  "yolo_reinference_matches": true,
+  "final_command_zero": true
+}

@@ -1,0 +1,9 @@
+.venv/
+.cache/
+.tmp/
+.local-assets/
+__pycache__/
+*.pyc
+.env*
+
+/Test2_Tyler/recording_archives/

@@ -1,0 +1,18 @@
+Resolved 25 packages in 862ms
+Downloading fonttools (5.2MiB)
+Downloading matplotlib (8.3MiB)
+ Downloaded fonttools
+Downloading kiwisolver (1.4MiB)
+ Downloaded kiwisolver
+ Downloaded matplotlib
+Prepared 9 packages in 1.63s
+Installed 9 packages in 81ms
+ + contourpy==1.4.0
+ + cycler==0.12.1
+ + fonttools==4.68.0
+ + kiwisolver==1.5.1
+ + matplotlib==3.10.7
+ + pyparsing==3.3.3
+ + python-dateutil==4.0.0
+ + stable-baselines3==2.9.2
+ + tzdata==2026.6

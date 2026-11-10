@@ -1,0 +1,27 @@
+{
+  "shared_git_baseline": "adf00d308ce3633de357eed05d5e9e0e299ec38e",
+  "individual_code_status": "uncommitted Phase 2A implementation; final delivered snapshot",
+  "python": "3.12.14 (main, Sep 29 2026, 15:01:18) [Clang 22.1.3 ]",
+  "files": {
+    "__init__.py": "a349da0e72a4448f07670896944f619f728b631b97fde0590fa1f35b52033fc7",
+    "adapters/__init__.py": "5fbf34fb9c5a9207c9779615fdfc9c4431d4985bae740a4c7c97cc8a5440de41",
+    "adapters/shared.py": "491572b61cc2be40e894e0b4ebdb5ac9255d2f089ca5cbb1e5213b4bede7f4cc",
+    "adapters/yolo.py": "486e05476f9dba78aa6677ec497ad0715e8707bbe888ecd1bb6d4ebd853d63b8",
+    "assets.py": "0ad21004ffffdfef1e9c5a6acf3d26b8b7b256213fb697f1df9afb4deadfb8ff",
+    "config/chair.yaml": "11b3d9a061e8ae6cb7a027fb29ab5dcbc8f10505f7be7c97331d4f7d9d2507e6",
+    "config/chair_timeout.yaml": "9017bf6a32a4d77f990fa5041a519160b358c8b734847d6ea53d2d2987f6b765",
+    "probe.py": "d846f1a48ccfe178114956d9b98898cbf1e02999cf2e5e742e00f3f7fcd501b0",
+    "q1_vision/__init__.py": "e33687327c04870b6f1ead62fa0f02d2ea010e04b0882192c750e2a51cf56325",
+    "q1_vision/mission.py": "54244a5d2e28097fcaa8a5c3df88ff0a474a183939e02247b7c86806b5191040",
+    "q1_vision/observations.py": "1519fa06f1b98f47425c44a4fc23579195d778dbf02513eaa4dd187bdc585890",
+    "q2_data_simulation/__init__.py": "7243ca9fb2792b543b2f9fcc28f67ad0d411489b5238a6f126e0942c8caa7272",
+    "q2_data_simulation/recording.py": "30ffdaaa4a373f5e8b96c77685e1507d6b78762dab0fd3801ff7784ce7900971",
+    "q2_data_simulation/replay.py": "247ce0003a03739cc75bab2e3c2ae04bdf9485da6a2cab0bb3c74e26ae0ec661",
+    "q3_rl/__init__.py": "f1d3ac751efa274f099483899ead0eb86aa6c7fd79f84aab494289120dc64dcf",
+    "q3_rl/observations.py": "99522f0911b3d06867f7f8cac68af727dea81f39b166f4b97dbf19b153ff01a7",
+    "report/environment.freeze.txt": "1f501b56d716465fd28b250ea76ac4236a6bda2b4c3cf063e755f5f6ddadefd8",
+    "requirements.txt": "7bd10b0afac468057b7d704e1733cdffe30b87ce9d652738e2aa999ca0d844e9",
+    "run.py": "f8c74cfcf2fe2a616f3a9b9b534b8df3675cacd03dab7372aff438996fd6a189",
+    "tests/test_application.py": "6297c14b2337a265de138b508fc7b5f660182b741e678563fd65878a5eb61f1b"
+  }
+}

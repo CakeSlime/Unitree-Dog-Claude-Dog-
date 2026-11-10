@@ -1,0 +1,6 @@
+Resolved 2 packages in 6.71s
+Downloading matplotlib (8.3MiB)
+error: Failed to download `matplotlib==3.10.7`
+  cause: Failed to extract archive: matplotlib-3.10.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  cause: I/O operation failed during extraction
+  cause: Failed to download distribution due to network timeout. Try increasing UV_HTTP_TIMEOUT (current value: 30s).

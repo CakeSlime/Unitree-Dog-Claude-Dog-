@@ -1,0 +1,15 @@
+Resolved 10 packages in 1.00s
+Downloading networkx (2.0MiB)
+ Downloaded networkx
+Downloading torch (199.8MiB)
+ Downloaded torch
+Downloading setuptools (1.2MiB)
+ Downloaded setuptools
+Prepared 6 packages in 17.75s
+Installed 6 packages in 534ms
+ + filelock==4.2.4
+ + jinja2==3.1.6
+ + markupsafe==3.0.3
+ + networkx==3.7
+ + setuptools==78.1.0
+ + torch==2.15.0+cpu

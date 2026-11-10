@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/Test2_Tyler/phase2c/panorama.py", line 48, in <module>
+    panorama(yaml.safe_load(a.config.read_text()),a.out)
+  File "/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/Test2_Tyler/phase2c/panorama.py", line 20, in panorama
+    sim=RegisteredSimulation(config['simulation']);detector=ChairDetector(.3);rows=[]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/Test2_Tyler/adapters/shared.py", line 35, in __init__
+    self.session = SimSession(config["environment"], spawn=config["spawn"], scene_patch=self._lights)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tyler/projects/engr6010/Unitree-Dog-Claude-Dog-/Phase_2_Investigator/sim_env/runtime.py", line 94, in __init__
+    self.model = mujoco.MjModel.from_xml_path(str(self.scene_path))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Error: body 'living_room_nightstand_0_E_body_3' not found in bodypair 0
+Element name 'selfcol_living_room_nightstand_0_E_door_1_living_room_nightstand_0_E_body_3', id 0, line 193

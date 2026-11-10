@@ -1,0 +1,2 @@
+[0;93m2026-11-09 19:48:41.187540914 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 search: frontier_travel

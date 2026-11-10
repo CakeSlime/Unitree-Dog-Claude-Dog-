@@ -1,0 +1,9 @@
+# Validated Phase 2A direct dependencies, CPython 3.12.14, Linux x86_64.
+# CPU YOLO inference; no Torch, Ultralytics install, hardware SDK, DDS or PPO needed yet.
+mujoco==3.3.7
+numpy==2.5.4
+onnxruntime==1.23.2
+opencv-python-headless==5.0.0.93
+pillow==13.0.0
+pyyaml==6.0.3
+pytest==9.2.0

@@ -1,0 +1,31 @@
+{
+  "protocol": "Phase 2C detector PROXY only; final checkpoint; new paired seeds",
+  "seed": 811110,
+  "episodes_per_policy": 8,
+  "identical_initial_poses_verified": true,
+  "model": "Test2_Tyler/results/phase2c/ppo_submission_20261110/final_model.zip",
+  "model_sha256": "fc1ce6cb495d20195801565f13a53c633aad3c25c4d7f13ee9534b74400b994c",
+  "task_version": "phase2c-camera-surface-1200",
+  "useful_learning_claim": false,
+  "wall_s": 4.802006187000018,
+  "policies": {
+    "random": {
+      "successes": 0,
+      "collisions": 8,
+      "mean_return": -10.528346620806747,
+      "mean_coverage_cells": 9.875
+    },
+    "scan_vantage": {
+      "successes": 4,
+      "collisions": 1,
+      "mean_return": 1.7850771221175483,
+      "mean_coverage_cells": 33.625
+    },
+    "ppo": {
+      "successes": 0,
+      "collisions": 5,
+      "mean_return": -10.346249999999873,
+      "mean_coverage_cells": 9.875
+    }
+  }
+}

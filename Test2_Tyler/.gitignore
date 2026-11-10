@@ -1,0 +1,12 @@
+.cache/
+__pycache__/
+.pytest_cache/
+runs/
+data/full/
+
+# Complete lossless copies of these sensor streams are in recording_archives/.
+# Keep browsable summaries/state/events/inspection images/GIFs and all PPO models.
+data/*/*/rgb/
+data/*/*/depth/
+data/*/*/legacy_depth/
+data/*/*/lidar/

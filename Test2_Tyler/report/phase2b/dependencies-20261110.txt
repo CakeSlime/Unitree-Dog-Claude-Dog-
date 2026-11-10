@@ -1,0 +1,2 @@
+3.12.14 (main, Sep 29 2026, 15:01:18) [Clang 22.1.3 ]
+{'torch': '2.15.0+cpu', 'gymnasium': '1.4.0', 'numpy': '2.5.4', 'stable_baselines3': '2.9.2', 'matplotlib': '3.10.7'}

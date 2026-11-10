@@ -1,0 +1,91 @@
+[0;93m2026-11-10 09:06:43.275919111 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 search: frontier_travel
+t=4.0 search: vantage_scan
+t=5.6 search: frontier_travel
+t=20.0 search: vantage_scan
+t=21.6 search: frontier_travel
+t=39.4 search: vantage_scan
+t=41.0 search: frontier_travel
+t=57.2 search: vantage_scan
+t=58.8 search: frontier_travel
+t=65.0 failed: task_timeout
+{
+  "controller_complete": false,
+  "success": false,
+  "reason": "task_timeout",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": null,
+  "confirmed_s": null,
+  "duration_sim_s": 65.00000000002642,
+  "wall_time_s": 89.08325256300031,
+  "frames": 326,
+  "path_m": 9.296055377301624,
+  "net_displacement_m": 5.475307866608963,
+  "search_forward_steps": 234,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        1.0007163022161916,
+        1.8988639388335298
+      ],
+      "source": "observed-free initial heading"
+    },
+    {
+      "t": 7.09999999999944,
+      "xy": [
+        2.6499992573636186,
+        3.7488642244743087
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 23.099999999998076,
+      "xy": [
+        4.449999257363619,
+        1.8488642244743092
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 42.500000000005976,
+      "xy": [
+        5.34999925736362,
+        4.44886422447431
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 60.30000000002773,
+      "xy": [
+        5.34999925736362,
+        3.5488642244743094
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 0,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9972572285535786,
+  "safety_intervention_steps": 6,
+  "phase_counts": {
+    "search": 325,
+    "failed": 1
+  },
+  "detection_confidence_mean": null,
+  "detection_confidence_max": null,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + rendered registered RGBD + sensor-map exploration; not PPO/proxy",
+  "range_rejections": 0,
+  "standoff_definition": "horizontal camera-optical-centre to measured visible chair surface at recorded sample_pixel; 0.95 +/- 0.10 m, uncertainty interval inside band"
+}

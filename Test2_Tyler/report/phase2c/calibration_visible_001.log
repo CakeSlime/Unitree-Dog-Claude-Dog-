@@ -1,0 +1,61 @@
+[0;93m2026-11-10 08:58:59.425286606 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 confirm: confirming
+t=0.4 approach: visual_approach
+t=2.6 approach: target_missing_stop
+t=3.0 approach: visual_approach
+t=3.6 approach: target_missing_stop
+t=3.8 approach: visual_approach
+t=7.4 approach: range_uncertainty_guard
+t=8.0 approach: target_missing_stop
+t=8.2 approach: range_uncertainty_guard
+t=10.4 approach: visual_approach
+t=10.6 approach: range_uncertainty_guard
+t=11.0 inspect: holding_for_inspection
+t=11.6 complete: inspection_ready
+{
+  "controller_complete": true,
+  "success": true,
+  "reason": "inspection_ready",
+  "final_state": "complete",
+  "initially_detected": true,
+  "first_detection_s": 0.0,
+  "confirmed_s": 0.40000000000000036,
+  "duration_sim_s": 11.600000000001042,
+  "wall_time_s": 28.110750656000164,
+  "frames": 59,
+  "path_m": 0.9587017453480928,
+  "net_displacement_m": 0.6722794237654726,
+  "search_forward_steps": 0,
+  "planned_vantages": [],
+  "target_loss_recoveries": 0,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9980227313767823,
+  "safety_intervention_steps": 0,
+  "phase_counts": {
+    "confirm": 2,
+    "approach": 53,
+    "inspect": 3,
+    "complete": 1
+  },
+  "detection_confidence_mean": 0.5946030703457919,
+  "detection_confidence_max": 0.8475305438041687,
+  "inspection_range_m": 1.0096888997479392,
+  "standoff_estimate_error_m": 0.05968889974793923,
+  "scoring_only_reference": {
+    "reference_ray_range_m": 1.047295126050558,
+    "ray_hit_chair": true,
+    "range_error_m": 0.00041681979178598283,
+    "reference_horizontal_range_m": 1.0092720799561532,
+    "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+  },
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + rendered registered RGBD + sensor-map exploration; not PPO/proxy",
+  "range_rejections": 0,
+  "standoff_definition": "horizontal camera-optical-centre to measured visible chair surface at recorded sample_pixel; 0.95 +/- 0.10 m, uncertainty interval inside band"
+}

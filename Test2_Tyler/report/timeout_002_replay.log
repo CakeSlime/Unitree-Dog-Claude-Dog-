@@ -1,0 +1,13 @@
+{
+  "trial": "Test2_Tyler/data/sample/timeout_002",
+  "frames": 6,
+  "checksum_files_verified": 24,
+  "timestamps_aligned": true,
+  "sim_interval_s": 0.2,
+  "task_states_and_requested_commands_reproduced": true,
+  "yolo_reinference_matches": null,
+  "minimum_valid_depth_fraction": 1.0,
+  "minimum_lidar_scan_returns": 720,
+  "success": false,
+  "final_state": "failed"
+}

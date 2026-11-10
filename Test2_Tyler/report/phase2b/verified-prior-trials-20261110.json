@@ -1,0 +1,41 @@
+[
+  {
+    "trial": "Test2_Tyler/data/phase2b/occluded_001",
+    "files_verified": 64,
+    "frames": 19,
+    "modalities_synchronized": true,
+    "path_m_reaggregated": 0.061212839222514394,
+    "mean_confidence_reaggregated": 0.7103688716888428,
+    "initially_detected": false,
+    "search_forward_steps": 0,
+    "success": false,
+    "reason": "target_lost",
+    "final_command_zero": true
+  },
+  {
+    "trial": "Test2_Tyler/data/phase2b/occluded_002",
+    "files_verified": 910,
+    "frames": 301,
+    "modalities_synchronized": true,
+    "path_m_reaggregated": 7.214628898657381,
+    "mean_confidence_reaggregated": 0.45144727174192667,
+    "initially_detected": false,
+    "search_forward_steps": 179,
+    "success": false,
+    "reason": "task_timeout",
+    "final_command_zero": true
+  },
+  {
+    "trial": "Test2_Tyler/data/phase2b/near_001",
+    "files_verified": 540,
+    "frames": 176,
+    "modalities_synchronized": true,
+    "path_m_reaggregated": 3.2243573998005486,
+    "mean_confidence_reaggregated": 0.39002690381473964,
+    "initially_detected": false,
+    "search_forward_steps": 72,
+    "success": false,
+    "reason": "task_timeout",
+    "final_command_zero": true
+  }
+]

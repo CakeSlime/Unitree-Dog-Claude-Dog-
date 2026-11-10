@@ -1,0 +1,11 @@
+{
+  "trial": "Test2_Tyler/data/phase2c/explore_context_002",
+  "frames": 326,
+  "files_verified": 1327,
+  "sensor_timestamps_valid": true,
+  "path_reaggregated": true,
+  "inspection_conditions_checked": true,
+  "success": false,
+  "yolo_reinference_matches": true,
+  "final_command_zero": true
+}

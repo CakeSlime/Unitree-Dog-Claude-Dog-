@@ -1,0 +1,7 @@
+# Optional CPU PPO foundation; install only after the Phase 2A environment works.
+# Install CPU Torch separately from https://download.pytorch.org/whl/cpu when needed.
+# Reuse the validated torch==2.15.0+cpu; do not replace it with a CUDA wheel.
+numpy==2.5.4
+gymnasium==1.4.0
+stable-baselines3==2.9.2
+matplotlib==3.10.7

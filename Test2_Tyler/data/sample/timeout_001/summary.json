@@ -1,0 +1,35 @@
+{
+  "success": false,
+  "final_state": "failed",
+  "reason": "task_timeout",
+  "frames": 7,
+  "duration_sim_s": 1.1999999999999231,
+  "wall_time_s": 4.389980978000494,
+  "states": {
+    "search": 6,
+    "failed": 1
+  },
+  "path_m": 0.04818744652016706,
+  "start_pose": [
+    4.878864224243048,
+    1.0999998381878564
+  ],
+  "end_pose": [
+    4.87866314661149,
+    1.091261184259598,
+    0.44959417290027326
+  ],
+  "min_upright": 0.9958973558461391,
+  "contact_steps": 0,
+  "safety_intervention_steps": 0,
+  "mean_inference_s": 0.0976753798570696,
+  "inspection_range_m": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "stationary_gate_sha256": "d2cc4b39b9413caba1387be6b460cb876fe209211854ebfbfee7ca18f60170c4",
+  "simulation_only": true,
+  "policy": "Tyler classical visual state machine; PPO not trained"
+}

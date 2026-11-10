@@ -1,0 +1,164 @@
+{
+  "shared_Test2_preservation": {
+    "baseline_files": 1468,
+    "current_files": 1468,
+    "changed_or_missing": [],
+    "added": [],
+    "unchanged": true
+  },
+  "recording_manifests": {
+    "trials": [
+      {
+        "trial": "data/phase2b/near_001",
+        "files": 540,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2b/near_20261110",
+        "files": 222,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2b/occluded_001",
+        "files": 64,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2b/occluded_002",
+        "files": 910,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2b/occluded_20261110",
+        "files": 480,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2b/shifted_20261110",
+        "files": 690,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2b/visible_20261110",
+        "files": 165,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/absent_001",
+        "files": 229,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/calibration_visible_001",
+        "files": 257,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/calibration_visible_002",
+        "files": 196,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/explore_context_001",
+        "files": 1326,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/explore_context_002",
+        "files": 1327,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/explore_room_001",
+        "files": 1324,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/forward_search_001",
+        "files": 1127,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/reachable_search_001",
+        "files": 1127,
+        "mismatches": []
+      },
+      {
+        "trial": "data/phase2c/reachable_search_002",
+        "files": 1128,
+        "mismatches": []
+      },
+      {
+        "trial": "data/sample/demo_001",
+        "files": 216,
+        "mismatches": []
+      },
+      {
+        "trial": "data/sample/timeout_001",
+        "files": 27,
+        "mismatches": []
+      },
+      {
+        "trial": "data/sample/timeout_002",
+        "files": 24,
+        "mismatches": []
+      }
+    ],
+    "files_checked": 11379,
+    "all_match": true
+  },
+  "archive_coverage": {
+    "all_raw_streams_included": true,
+    "raw_files": 11555,
+    "parts": 78,
+    "bytes": 2759741405
+  },
+  "broken_current_document_links": [],
+  "pytest": {
+    "tests": "50",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  "docx_xml_valid": true,
+  "pdf_signature_valid": true,
+  "git_branch": "engr6010-second-test",
+  "sensitive_content_matches": [],
+  "publication_batches": {
+    "core_paths": 859,
+    "data_batches": [
+      {
+        "name": "data_001.txt",
+        "parts": 21,
+        "bytes": 606573260
+      },
+      {
+        "name": "data_002.txt",
+        "parts": 15,
+        "bytes": 618328494
+      },
+      {
+        "name": "data_003.txt",
+        "parts": 15,
+        "bytes": 592849026
+      },
+      {
+        "name": "data_004.txt",
+        "parts": 16,
+        "bytes": 605802966
+      },
+      {
+        "name": "data_005.txt",
+        "parts": 11,
+        "bytes": 336187659
+      }
+    ]
+  },
+  "staging_audit": {
+    "paths": 937,
+    "bytes": 2846112091,
+    "files_at_least_50_MiB": [],
+    "credential_or_cache_paths": []
+  },
+  "passed": true
+}

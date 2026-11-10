@@ -1,0 +1,99 @@
+[0;93m2026-11-10 08:37:47.548916981 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+t=0.0 search: frontier_travel
+t=20.2 search: vantage_scan
+t=21.8 search: frontier_travel
+t=25.6 search: vantage_scan
+t=27.2 search: frontier_travel
+t=32.2 confirm: confirming
+t=32.6 approach: visual_approach
+t=32.8 approach: target_missing_stop
+t=33.0 approach: visual_approach
+t=33.2 approach: target_missing_stop
+t=34.0 approach: visual_approach
+t=34.2 approach: target_missing_stop
+t=34.4 approach: visual_approach
+t=34.6 approach: target_missing_stop
+t=36.4 search: target_lost_recovery
+t=36.6 search: frontier_travel
+t=37.8 confirm: confirming
+t=38.2 approach: visual_approach
+t=39.4 approach: target_missing_stop
+t=40.0 approach: visual_approach
+t=41.0 approach: target_missing_stop
+t=41.2 approach: visual_approach
+t=42.0 approach: target_missing_stop
+t=42.2 approach: visual_approach
+t=42.4 approach: target_missing_stop
+t=43.4 approach: visual_approach
+t=45.0 failed: task_timeout
+{
+  "success": false,
+  "reason": "task_timeout",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 32.19999999999522,
+  "confirmed_s": 32.59999999999571,
+  "duration_sim_s": 45.000000000010864,
+  "wall_time_s": 84.86516004999999,
+  "frames": 226,
+  "path_m": 4.203799703379255,
+  "net_displacement_m": 1.9454088652192818,
+  "search_forward_steps": 98,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        3.048953818239859,
+        1.5504421428740103
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 3.699999999999814,
+      "xy": [
+        6.548953818239859,
+        1.85044214287401
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 23.299999999997965,
+      "xy": [
+        6.848953818239859,
+        2.4504421428740097
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 28.699999999994972,
+      "xy": [
+        5.348953818239859,
+        2.0504421428740103
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 1,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9960816699875623,
+  "safety_intervention_steps": 38,
+  "phase_counts": {
+    "search": 168,
+    "confirm": 4,
+    "approach": 53,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.40070275285027246,
+  "detection_confidence_max": 0.5904171466827393,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + sensor-map frontier/coverage, not a detector proxy or PPO"
+}

@@ -1,0 +1,31 @@
+{
+  "protocol": "proxy only; independent evaluation seeds; same initial seeds per method",
+  "model": "Test2_Tyler/results/phase2b/ppo_smoke_20261110/final_model.zip",
+  "model_sha256": "68708256c32d4a1722f8ea9f480004fa27101db4493ab1d243612d82bd16496d",
+  "episodes_per_policy": 8,
+  "seed": 801022,
+  "policies": {
+    "random": {
+      "successes": 0,
+      "success_rate": 0.0,
+      "collisions": 4,
+      "mean_return": -6.718780761743094,
+      "mean_coverage_cells": 8.0
+    },
+    "classical": {
+      "successes": 0,
+      "success_rate": 0.0,
+      "collisions": 4,
+      "mean_return": -1.4504609395060697,
+      "mean_coverage_cells": 17.25
+    },
+    "ppo": {
+      "successes": 0,
+      "success_rate": 0.0,
+      "collisions": 1,
+      "mean_return": -2.9541230219936203,
+      "mean_coverage_cells": 5.875
+    }
+  },
+  "identical_initial_poses_verified": true
+}

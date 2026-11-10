@@ -1,0 +1,13 @@
+{
+  "trial": "Test2_Tyler/data/sample/demo_001",
+  "frames": 69,
+  "checksum_files_verified": 216,
+  "timestamps_aligned": true,
+  "sim_interval_s": 0.2,
+  "task_states_and_requested_commands_reproduced": true,
+  "yolo_reinference_matches": true,
+  "minimum_valid_depth_fraction": 1.0,
+  "minimum_lidar_scan_returns": 720,
+  "success": true,
+  "final_state": "complete"
+}

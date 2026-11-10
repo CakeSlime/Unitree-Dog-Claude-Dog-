@@ -1,0 +1,97 @@
+{
+  "protocol": "offline same-frame comparison; no navigation",
+  "input_trial": "Test2_Tyler/data/phase2c/explore_context_001",
+  "frame": 202,
+  "recorded_old_target": {
+    "timestamp": 41.90000000000524,
+    "confidence": 0.5129804015159607,
+    "bbox": [
+      54.896263122558594,
+      85.43579864501953,
+      251.1494598388672,
+      392.57330322265625
+    ],
+    "bearing": 0.38092161248397355,
+    "range_m": 2.665866420174384,
+    "world_xyz": [
+      5.947523472738749,
+      3.506376185422406,
+      0.8946712936146055
+    ],
+    "valid_points": 928,
+    "sample_pixel": [
+      153.0228614807129,
+      162.2201747894287
+    ],
+    "uncertainty_m": 0.03103543758392334,
+    "depth_spread_m": 0.03207087516784668,
+    "source": "registered_RGBD"
+  },
+  "old_scoring_only": {
+    "reference_ray_range_m": 2.7141337406176023,
+    "ray_hit_chair": false,
+    "range_error_m": -0.00250488158742046,
+    "reference_horizontal_range_m": 2.6683713017618045,
+    "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+  },
+  "new_targets": [
+    {
+      "timestamp": 41.90000000000524,
+      "confidence": 0.5129804015159607,
+      "bbox": [
+        54.896263122558594,
+        85.43579864501953,
+        251.1494598388672,
+        392.57330322265625
+      ],
+      "bearing": 0.28436255647764275,
+      "range_m": 1.3539333435397736,
+      "world_xyz": [
+        4.668522272013579,
+        3.1595109621212014,
+        0.6854623528970568
+      ],
+      "valid_points": 7174,
+      "sample_pixel": [
+        198.0,
+        151.0
+      ],
+      "uncertainty_m": 0.025,
+      "depth_spread_m": 0.014588713645935059,
+      "source": "registered_RGBD"
+    }
+  ],
+  "quality": [
+    {
+      "bbox": [
+        54.896263122558594,
+        85.43579864501953,
+        251.1494598388672,
+        392.57330322265625
+      ],
+      "accepted": true,
+      "valid_fraction": 1.0,
+      "sample_pixel": [
+        198.0,
+        151.0
+      ],
+      "depth_z_m": 1.3014668226242065,
+      "spread_m": 0.014588713645935059,
+      "component_support": 7174,
+      "background_z_m": 2.5791232585906982,
+      "component_z_m": 1.2883118391036987,
+      "reason": "valid",
+      "range_m": 1.3539333435397736,
+      "uncertainty_m": 0.025
+    }
+  ],
+  "new_scoring_only": [
+    {
+      "reference_ray_range_m": 1.3839404263706727,
+      "ray_hit_chair": true,
+      "range_error_m": 1.2821518069472404e-08,
+      "reference_horizontal_range_m": 1.3539333307182555,
+      "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+    }
+  ]
+}
