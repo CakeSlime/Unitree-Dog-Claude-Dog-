@@ -1,0 +1,55 @@
+{
+  "success": false,
+  "reason": "target_too_close",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 0.5999999999999892,
+  "confirmed_s": 0.9999999999999452,
+  "duration_sim_s": 30.999999999993754,
+  "wall_time_s": 56.12523262000002,
+  "frames": 156,
+  "path_m": 2.5153096345003316,
+  "net_displacement_m": 1.192074783973666,
+  "search_forward_steps": 69,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        1.0464600108100575,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 28.89999999999486,
+      "xy": [
+        0.7464600108100576,
+        4.052991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 1,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9973748276292009,
+  "safety_intervention_steps": 45,
+  "phase_counts": {
+    "search": 138,
+    "confirm": 4,
+    "approach": 13,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.509653217262692,
+  "detection_confidence_max": 0.8584722280502319,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + sensor-map frontier/coverage, not a detector proxy or PPO"
+}

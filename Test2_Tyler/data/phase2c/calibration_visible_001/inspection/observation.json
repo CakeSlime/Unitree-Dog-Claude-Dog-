@@ -1,0 +1,40 @@
+{
+  "target": {
+    "timestamp": 13.100000000001044,
+    "confidence": 0.46598783135414124,
+    "bbox": [
+      205.2733612060547,
+      24.080902099609375,
+      433.7146911621094,
+      421.31268310546875
+    ],
+    "bearing": 1.437076761704626e-05,
+    "range_m": 1.0096888997479392,
+    "world_xyz": [
+      4.874093439346581,
+      3.100999624278309,
+      0.6914530617019538
+    ],
+    "valid_points": 1369,
+    "sample_pixel": [
+      319.49402618408203,
+      123.38884735107422
+    ],
+    "uncertainty_m": 0.025,
+    "depth_spread_m": 0.010359644889831543,
+    "source": "registered_RGBD"
+  },
+  "pose": [
+    4.886312697883811,
+    1.7711140025235301,
+    1.58025006785341
+  ],
+  "timestamp": 13.100000000001044,
+  "scoring_only_reference": {
+    "reference_ray_range_m": 1.047295126050558,
+    "ray_hit_chair": true,
+    "range_error_m": 0.00041681979178598283,
+    "reference_horizontal_range_m": 1.0092720799561532,
+    "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+  }
+}

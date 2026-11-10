@@ -1,0 +1,66 @@
+{
+  "controller_complete": false,
+  "success": false,
+  "reason": "task_timeout",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 38.60000000000304,
+  "confirmed_s": 39.00000000000353,
+  "duration_sim_s": 55.000000000023086,
+  "wall_time_s": 99.46886253299999,
+  "frames": 276,
+  "path_m": 5.388959338772121,
+  "net_displacement_m": 2.5119341836114537,
+  "search_forward_steps": 91,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        3.000716302216197,
+        2.398863938833525
+      ],
+      "source": "observed-free initial heading"
+    },
+    {
+      "t": 11.50000000000051,
+      "xy": [
+        0.34999925736362414,
+        2.048864224474305
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 16.700000000001623,
+      "xy": [
+        0.9499992573636242,
+        3.8488642244743048
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 0,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9955090007374401,
+  "safety_intervention_steps": 63,
+  "phase_counts": {
+    "search": 193,
+    "confirm": 2,
+    "approach": 80,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.6039289911336536,
+  "detection_confidence_max": 0.800835132598877,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + rendered registered RGBD + sensor-map exploration; not PPO/proxy",
+  "range_rejections": 0,
+  "standoff_definition": "horizontal camera-optical-centre to measured visible chair surface at recorded sample_pixel; 0.95 +/- 0.10 m, uncertainty interval inside band"
+}

@@ -1,0 +1,145 @@
+{
+  "format": "tyler-object-search-1",
+  "started_utc": "2026-11-10T15:27:56.046695+00:00",
+  "simulation_only": true,
+  "clock": "synchronized simulation seconds; wall_elapsed_s separate",
+  "config": {
+    "title": "Autonomous Indoor Object Search and Inspection Using the Unitree Go2",
+    "seed": 601021,
+    "simulation": {
+      "environment": "scenesmith_house_185",
+      "spawn": [
+        4.0,
+        1.1,
+        1.57
+      ],
+      "settle_s": 1.5,
+      "dt": 0.2,
+      "camera_size": [
+        640,
+        480
+      ],
+      "chair_pose": [
+        4.88,
+        3.35,
+        0.0
+      ],
+      "hide_chair": false,
+      "calibration_room": true,
+      "room_obstacles": [
+        [
+          4.44,
+          2.2,
+          1.0,
+          0.75,
+          0.1,
+          1.0
+        ]
+      ],
+      "context_backdrop": true,
+      "context_bed_pose": [
+        3.0,
+        4.7
+      ]
+    },
+    "detector": {
+      "target_class": "chair",
+      "confidence": 0.3
+    },
+    "task": {
+      "min_confidence": 0.3,
+      "confirm_frames": 3,
+      "inspect_frames": 3,
+      "standoff_m": 0.95,
+      "distance_tolerance_m": 0.1,
+      "max_forward_mps": 0.18,
+      "max_yaw_rps": 0.35,
+      "scan_yaw_rps": 0.3,
+      "max_time_s": 55,
+      "deadline_tolerance_s": 1e-08,
+      "target_lost_s": 2.0,
+      "blocked_timeout_s": 2.0,
+      "continuity_gate_m": 0.65,
+      "max_frame_age_s": 0.3,
+      "corridor_half_width_m": 0.28,
+      "body_front_m": 0.35,
+      "obstacle_margin_m": 0.22
+    },
+    "exploration": {
+      "map_range_m": 2.8
+    }
+  },
+  "model_sha256": "a77dd863933f184a19e84361c64b788228a7c7dacc2c78939239a96ad3efca3b",
+  "status": "finished",
+  "git_revision": "adf00d308ce3633de357eed05d5e9e0e299ec38e",
+  "controller": "scripted physical trot + Tyler sensor-map search; no PPO",
+  "depth": "640x480 rendered optical-z, RGB camera/mask; legacy collision depth separately retained",
+  "phase": "2C actual YOLO calibrated RGBD exploration",
+  "frames": 276,
+  "outcome": {
+    "controller_complete": false,
+    "success": false,
+    "reason": "task_timeout",
+    "final_state": "failed",
+    "initially_detected": false,
+    "first_detection_s": 52.200000000019664,
+    "confirmed_s": 52.60000000002015,
+    "duration_sim_s": 55.000000000023086,
+    "wall_time_s": 99.69104840399996,
+    "frames": 276,
+    "path_m": 6.734311198422734,
+    "net_displacement_m": 3.5202797409749937,
+    "search_forward_steps": 164,
+    "planned_vantages": [
+      {
+        "t": 1.500000000000001,
+        "xy": [
+          3.4499992573636242,
+          2.7488642244743042
+        ],
+        "source": "sensor-map frontier/coverage"
+      },
+      {
+        "t": 21.499999999998963,
+        "xy": [
+          0.4499992573636242,
+          2.548864224474304
+        ],
+        "source": "sensor-map frontier/coverage"
+      },
+      {
+        "t": 49.50000000001453,
+        "xy": [
+          0.9499992573636242,
+          3.2488642244743042
+        ],
+        "source": "sensor-map frontier/coverage"
+      }
+    ],
+    "target_loss_recoveries": 0,
+    "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+    "contact_steps": 0,
+    "collision_events": 0,
+    "min_upright": 0.9963237547230104,
+    "safety_intervention_steps": 30,
+    "phase_counts": {
+      "search": 261,
+      "confirm": 2,
+      "approach": 12,
+      "failed": 1
+    },
+    "detection_confidence_mean": 0.5615046724677086,
+    "detection_confidence_max": 0.8415402173995972,
+    "inspection_range_m": null,
+    "standoff_estimate_error_m": null,
+    "scoring_only_reference": null,
+    "final_applied_command": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "protocol": "actual YOLO + rendered registered RGBD + sensor-map exploration; not PPO/proxy",
+    "range_rejections": 5,
+    "standoff_definition": "horizontal camera-optical-centre to measured visible chair surface at recorded sample_pixel; 0.95 +/- 0.10 m, uncertainty interval inside band"
+  }
+}

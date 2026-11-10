@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "reason": "inspection_ready",
+  "final_state": "complete",
+  "initially_detected": false,
+  "first_detection_s": 4.999999999999505,
+  "confirmed_s": 5.999999999999395,
+  "duration_sim_s": 13.60000000000171,
+  "wall_time_s": 26.121523690000004,
+  "frames": 69,
+  "path_m": 1.0547177295763828,
+  "net_displacement_m": 0.5486632605904801,
+  "search_forward_steps": 0,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        6.129131206542843,
+        2.450731563069777
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 3.699999999999814,
+      "xy": [
+        2.4291312065428436,
+        2.150731563069777
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 0,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9964250002193556,
+  "safety_intervention_steps": 0,
+  "phase_counts": {
+    "search": 27,
+    "confirm": 3,
+    "approach": 36,
+    "inspect": 2,
+    "complete": 1
+  },
+  "detection_confidence_mean": 0.5771330825984478,
+  "detection_confidence_max": 0.8085441589355469,
+  "inspection_range_m": 1.0441834777639245,
+  "standoff_estimate_error_m": 0.09418347776392455,
+  "scoring_only_reference": {
+    "reference_ray_range_m": 1.1649699380343197,
+    "ray_hit_chair": true,
+    "range_error_m": -0.08731894591131706,
+    "reference_horizontal_range_m": 1.1315024236752416,
+    "reference_definition": "single visual-mesh ray at YOLO-box centre; scoring only"
+  },
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + sensor-map frontier/coverage, not a detector proxy or PPO"
+}

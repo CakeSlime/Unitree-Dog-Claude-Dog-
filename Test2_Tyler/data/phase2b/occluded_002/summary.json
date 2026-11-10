@@ -1,0 +1,247 @@
+{
+  "success": false,
+  "reason": "task_timeout",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 0.5999999999999892,
+  "confirmed_s": 0.9999999999999452,
+  "duration_sim_s": 60.000000000029196,
+  "wall_time_s": 110.27471619400058,
+  "frames": 301,
+  "path_m": 7.214628898657381,
+  "net_displacement_m": 4.040503968042104,
+  "search_forward_steps": 179,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        1.0464600108100575,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 5.299999999999638,
+      "xy": [
+        1.0464600108100575,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 7.499999999999396,
+      "xy": [
+        1.0464600108100575,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 9.499999999999842,
+      "xy": [
+        1.0464600108100575,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 11.50000000000051,
+      "xy": [
+        1.0464600108100575,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 13.500000000001178,
+      "xy": [
+        1.2464600108100576,
+        0.45299113494765386
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 15.500000000001846,
+      "xy": [
+        1.0464600108100575,
+        4.052991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 17.70000000000107,
+      "xy": [
+        1.0464600108100575,
+        4.052991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 19.89999999999985,
+      "xy": [
+        0.7464600108100576,
+        4.152991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 22.09999999999863,
+      "xy": [
+        4.346460010810058,
+        2.0529911349476544
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 24.29999999999741,
+      "xy": [
+        4.346460010810058,
+        2.0529911349476544
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 28.499999999995083,
+      "xy": [
+        4.346460010810058,
+        2.0529911349476544
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 30.699999999993864,
+      "xy": [
+        4.346460010810058,
+        2.0529911349476544
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 35.49999999999742,
+      "xy": [
+        4.346460010810058,
+        2.0529911349476544
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 37.499999999999865,
+      "xy": [
+        4.5464600108100575,
+        1.9529911349476539
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 39.50000000000231,
+      "xy": [
+        4.7464600108100585,
+        2.152991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 41.700000000005,
+      "xy": [
+        5.146460010810057,
+        2.152991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 43.70000000000744,
+      "xy": [
+        5.0464600108100575,
+        0.8529911349476542
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 45.70000000000989,
+      "xy": [
+        5.2464600108100585,
+        0.7529911349476537
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 47.70000000001233,
+      "xy": [
+        3.7464600108100576,
+        0.5529911349476535
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 49.700000000014775,
+      "xy": [
+        6.446460010810058,
+        1.9529911349476539
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 51.70000000001722,
+      "xy": [
+        6.646460010810059,
+        2.352991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 53.700000000019664,
+      "xy": [
+        7.0464600108100575,
+        2.452991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 55.70000000002211,
+      "xy": [
+        6.7464600108100585,
+        2.652991134947654
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 57.70000000002455,
+      "xy": [
+        6.646460010810059,
+        2.7529911349476537
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 59.700000000026996,
+      "xy": [
+        6.446460010810058,
+        2.7529911349476537
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 3,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9945164975369251,
+  "safety_intervention_steps": 10,
+  "phase_counts": {
+    "search": 253,
+    "confirm": 8,
+    "approach": 39,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.45144727174192667,
+  "detection_confidence_max": 0.8584722280502319,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + sensor-map frontier/coverage, not a detector proxy or PPO"
+}

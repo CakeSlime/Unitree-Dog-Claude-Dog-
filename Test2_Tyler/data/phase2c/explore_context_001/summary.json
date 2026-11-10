@@ -1,0 +1,81 @@
+{
+  "controller_complete": false,
+  "success": false,
+  "reason": "task_timeout",
+  "final_state": "failed",
+  "initially_detected": false,
+  "first_detection_s": 40.40000000000524,
+  "confirmed_s": null,
+  "duration_sim_s": 65.00000000002642,
+  "wall_time_s": 121.85684994299982,
+  "frames": 326,
+  "path_m": 7.889867065273443,
+  "net_displacement_m": 3.713544595625264,
+  "search_forward_steps": 177,
+  "planned_vantages": [
+    {
+      "t": 1.500000000000001,
+      "xy": [
+        1.0007163022161916,
+        1.89886393883353
+      ],
+      "source": "observed-free initial heading"
+    },
+    {
+      "t": 11.50000000000051,
+      "xy": [
+        2.9499992573636193,
+        3.0488642244743094
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 35.09999999999693,
+      "xy": [
+        4.749999257363619,
+        1.3488642244743092
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 40.30000000000329,
+      "xy": [
+        5.1499992573636195,
+        1.8488642244743092
+      ],
+      "source": "sensor-map frontier/coverage"
+    },
+    {
+      "t": 61.10000000002871,
+      "xy": [
+        4.349999257363619,
+        2.0488642244743094
+      ],
+      "source": "sensor-map frontier/coverage"
+    }
+  ],
+  "target_loss_recoveries": 0,
+  "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+  "contact_steps": 0,
+  "collision_events": 0,
+  "min_upright": 0.9923788655519061,
+  "safety_intervention_steps": 4,
+  "phase_counts": {
+    "search": 324,
+    "confirm": 1,
+    "failed": 1
+  },
+  "detection_confidence_mean": 0.5527021812426077,
+  "detection_confidence_max": 0.8856899738311768,
+  "inspection_range_m": null,
+  "standoff_estimate_error_m": null,
+  "scoring_only_reference": null,
+  "final_applied_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "protocol": "actual YOLO + rendered registered RGBD + sensor-map exploration; not PPO/proxy",
+  "range_rejections": 36,
+  "standoff_definition": "horizontal camera-optical-centre to measured visible chair surface at recorded sample_pixel; 0.95 +/- 0.10 m, uncertainty interval inside band"
+}

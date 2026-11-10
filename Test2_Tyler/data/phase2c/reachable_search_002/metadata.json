@@ -1,0 +1,232 @@
+{
+  "format": "tyler-object-search-1",
+  "started_utc": "2026-11-10T15:40:15.375615+00:00",
+  "simulation_only": true,
+  "clock": "synchronized simulation seconds; wall_elapsed_s separate",
+  "config": {
+    "title": "Autonomous Indoor Object Search and Inspection Using the Unitree Go2",
+    "seed": 601021,
+    "simulation": {
+      "environment": "scenesmith_house_185",
+      "spawn": [
+        3.0,
+        1.5,
+        1.57
+      ],
+      "settle_s": 1.5,
+      "dt": 0.2,
+      "camera_size": [
+        640,
+        480
+      ],
+      "chair_pose": [
+        4.88,
+        3.35,
+        -1.5707963267948966
+      ],
+      "hide_chair": false,
+      "calibration_room": true,
+      "room_obstacles": [
+        [
+          4.0,
+          2.3,
+          1.0,
+          0.15,
+          0.65,
+          1.0
+        ]
+      ],
+      "context_backdrop": true,
+      "context_bed_pose": [
+        3.0,
+        4.7
+      ]
+    },
+    "detector": {
+      "target_class": "chair",
+      "confidence": 0.3
+    },
+    "task": {
+      "min_confidence": 0.3,
+      "confirm_frames": 3,
+      "inspect_frames": 3,
+      "standoff_m": 0.95,
+      "distance_tolerance_m": 0.1,
+      "max_forward_mps": 0.18,
+      "max_yaw_rps": 0.35,
+      "scan_yaw_rps": 0.3,
+      "max_time_s": 55,
+      "deadline_tolerance_s": 1e-08,
+      "target_lost_s": 2.0,
+      "blocked_timeout_s": 2.0,
+      "continuity_gate_m": 0.65,
+      "max_frame_age_s": 0.3,
+      "corridor_half_width_m": 0.28,
+      "body_front_m": 0.35,
+      "obstacle_margin_m": 0.22
+    },
+    "exploration": {
+      "map_range_m": 2.8
+    }
+  },
+  "model_sha256": "a77dd863933f184a19e84361c64b788228a7c7dacc2c78939239a96ad3efca3b",
+  "status": "finished",
+  "git_revision": "adf00d308ce3633de357eed05d5e9e0e299ec38e",
+  "controller": "scripted physical trot + Tyler sensor-map search; no PPO",
+  "depth": "640x480 rendered optical-z, RGB camera/mask; legacy collision depth separately retained",
+  "phase": "2C actual YOLO calibrated RGBD exploration",
+  "frames": 276,
+  "outcome": {
+    "controller_complete": false,
+    "success": false,
+    "reason": "task_timeout",
+    "final_state": "failed",
+    "initially_detected": false,
+    "first_detection_s": 38.60000000000304,
+    "confirmed_s": 39.00000000000353,
+    "duration_sim_s": 55.000000000023086,
+    "wall_time_s": 100.38039066799956,
+    "frames": 276,
+    "path_m": 5.206331052890572,
+    "net_displacement_m": 2.428859194207913,
+    "search_forward_steps": 91,
+    "planned_vantages": [
+      {
+        "t": 1.500000000000001,
+        "xy": [
+          3.000716302216197,
+          2.398863938833525
+        ],
+        "source": "observed-free initial heading"
+      },
+      {
+        "t": 11.50000000000051,
+        "xy": [
+          0.34999925736362414,
+          2.048864224474305
+        ],
+        "source": "sensor-map frontier/coverage"
+      },
+      {
+        "t": 16.700000000001623,
+        "xy": [
+          0.9499992573636242,
+          3.8488642244743048
+        ],
+        "source": "sensor-map frontier/coverage"
+      },
+      {
+        "t": 48.9000000000138,
+        "xy": [
+          0.4499992573636242,
+          0.6488642244743046
+        ],
+        "source": "sensor-map frontier/coverage"
+      }
+    ],
+    "target_loss_recoveries": 1,
+    "mapping_backend": "NumPy/OpenCV + heapq adaptations of shared mapping/planning",
+    "contact_steps": 0,
+    "collision_events": 0,
+    "min_upright": 0.990592385114656,
+    "safety_intervention_steps": 4,
+    "phase_counts": {
+      "search": 232,
+      "confirm": 2,
+      "approach": 41,
+      "failed": 1
+    },
+    "detection_confidence_mean": 0.7105451636924976,
+    "detection_confidence_max": 0.8549433946609497,
+    "inspection_range_m": null,
+    "standoff_estimate_error_m": null,
+    "scoring_only_reference": null,
+    "final_applied_command": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "protocol": "actual YOLO + rendered registered RGBD + sensor-map exploration; not PPO/proxy",
+    "range_rejections": 12,
+    "observed_surface_approach_goals": [
+      {
+        "t": 40.50000000000353,
+        "observed_surface": [
+          4.620513394064216,
+          3.318094035311581
+        ],
+        "goal": [
+          3.3377602428459427,
+          3.1070387036101756
+        ]
+      },
+      {
+        "t": 41.50000000000475,
+        "observed_surface": [
+          4.622723461954655,
+          3.3536483413319322
+        ],
+        "goal": [
+          3.3409905414293926,
+          3.1364831497339636
+        ]
+      },
+      {
+        "t": 42.500000000005976,
+        "observed_surface": [
+          4.621337868569564,
+          3.3554368199652465
+        ],
+        "goal": [
+          3.3421469591539736,
+          3.123767622037436
+        ]
+      },
+      {
+        "t": 43.5000000000072,
+        "observed_surface": [
+          4.62017023671117,
+          3.3465250483770723
+        ],
+        "goal": [
+          3.3405207314095593,
+          3.1174024969305933
+        ]
+      },
+      {
+        "t": 44.50000000000842,
+        "observed_surface": [
+          4.622373537933175,
+          3.3190844773615296
+        ],
+        "goal": [
+          3.340901370132352,
+          3.1003858647645153
+        ]
+      },
+      {
+        "t": 45.50000000000964,
+        "observed_surface": [
+          4.620437076848123,
+          3.36365499312824
+        ],
+        "goal": [
+          3.344241454559569,
+          3.116016680964048
+        ]
+      },
+      {
+        "t": 46.500000000010864,
+        "observed_surface": [
+          4.62007899602148,
+          3.355682358422465
+        ],
+        "goal": [
+          3.3456555444436393,
+          3.099079813484922
+        ]
+      }
+    ],
+    "standoff_definition": "horizontal camera-optical-centre to measured visible chair surface at recorded sample_pixel; 0.95 +/- 0.10 m, uncertainty interval inside band"
+  }
+}

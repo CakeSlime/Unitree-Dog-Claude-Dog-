@@ -1,0 +1,37 @@
+{
+  "target": {
+    "timestamp": 15.100000000001712,
+    "confidence": 0.5992664098739624,
+    "bbox": [
+      212.0065155029297,
+      48.85972595214844,
+      434.746826171875,
+      402.3663330078125
+    ],
+    "bearing": -0.00932555028706551,
+    "range_m": 1.0441834777639245,
+    "world_xyz": [
+      4.8832373390856105,
+      3.0136386349372772,
+      0.6682476319413481
+    ],
+    "valid_points": 1935,
+    "sample_pixel": [
+      323.37667083740234,
+      137.23637771606445
+    ]
+  },
+  "pose": [
+    4.865641818766421,
+    1.6492289741294772,
+    1.564744237145371
+  ],
+  "timestamp": 15.100000000001712,
+  "scoring_only_reference": {
+    "reference_ray_range_m": 1.1649699380343197,
+    "ray_hit_chair": true,
+    "range_error_m": -0.08731894591131706,
+    "reference_horizontal_range_m": 1.1315024236752416,
+    "reference_definition": "single visual-mesh ray at YOLO-box centre; scoring only"
+  }
+}

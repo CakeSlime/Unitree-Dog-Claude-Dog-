@@ -1,0 +1,540 @@
+[
+  {
+    "frame": 0,
+    "t": 1.500000000000001,
+    "references": [
+      {
+        "reference_ray_range_m": 1.7073728884425967,
+        "ray_hit_chair": true,
+        "range_error_m": 6.174943833481272e-05,
+        "reference_horizontal_range_m": 1.6728361295110938,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 1,
+    "t": 1.7000000000000013,
+    "references": [
+      {
+        "reference_ray_range_m": 1.7074023982859134,
+        "ray_hit_chair": true,
+        "range_error_m": 6.21559188243026e-05,
+        "reference_horizontal_range_m": 1.6728509355544747,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 2,
+    "t": 1.9000000000000015,
+    "references": [
+      {
+        "reference_ray_range_m": 1.7074305318569114,
+        "ray_hit_chair": true,
+        "range_error_m": 6.212308845299219e-05,
+        "reference_horizontal_range_m": 1.6728658920304396,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 3,
+    "t": 2.0999999999999903,
+    "references": [
+      {
+        "reference_ray_range_m": 1.7074235482117315,
+        "ray_hit_chair": true,
+        "range_error_m": 0.00010229055607657855,
+        "reference_horizontal_range_m": 1.671087646001151,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 4,
+    "t": 2.2999999999999683,
+    "references": [
+      {
+        "reference_ray_range_m": 1.7192483548114819,
+        "ray_hit_chair": true,
+        "range_error_m": 7.04250899818959e-08,
+        "reference_horizontal_range_m": 1.6867700459517971,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 5,
+    "t": 2.4999999999999463,
+    "references": [
+      {
+        "reference_ray_range_m": 1.7084364044210885,
+        "ray_hit_chair": true,
+        "range_error_m": -7.35350429437176e-08,
+        "reference_horizontal_range_m": 1.6738242600000839,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 6,
+    "t": 2.6999999999999242,
+    "references": [
+      {
+        "reference_ray_range_m": 1.680057206659901,
+        "ray_hit_chair": true,
+        "range_error_m": 7.552322101034292e-09,
+        "reference_horizontal_range_m": 1.6467229156817849,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 7,
+    "t": 2.899999999999902,
+    "references": [
+      {
+        "reference_ray_range_m": 1.640495950262896,
+        "ray_hit_chair": true,
+        "range_error_m": 1.0741760392285471e-07,
+        "reference_horizontal_range_m": 1.6080940312415317,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 8,
+    "t": 3.09999999999988,
+    "references": [
+      {
+        "reference_ray_range_m": 1.5858243449732843,
+        "ray_hit_chair": true,
+        "range_error_m": 2.2036359892396717e-07,
+        "reference_horizontal_range_m": 1.5509112310355828,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 9,
+    "t": 3.299999999999858,
+    "references": [
+      {
+        "reference_ray_range_m": 1.546478798104259,
+        "ray_hit_chair": true,
+        "range_error_m": -1.21909007777532e-07,
+        "reference_horizontal_range_m": 1.5061501068975531,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 10,
+    "t": 3.499999999999836,
+    "references": [
+      {
+        "reference_ray_range_m": 1.5204937244902295,
+        "ray_hit_chair": true,
+        "range_error_m": 1.4192374564458987e-07,
+        "reference_horizontal_range_m": 1.480971073229085,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 11,
+    "t": 3.699999999999814,
+    "references": [
+      {
+        "reference_ray_range_m": 1.5150191821941033,
+        "ray_hit_chair": true,
+        "range_error_m": 2.8927417217161633e-07,
+        "reference_horizontal_range_m": 1.4768386315699493,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 12,
+    "t": 3.899999999999792,
+    "references": [
+      {
+        "reference_ray_range_m": 1.5312373018214342,
+        "ray_hit_chair": true,
+        "range_error_m": 2.589119529883277e-07,
+        "reference_horizontal_range_m": 1.4936648050070003,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 13,
+    "t": 4.0999999999997705,
+    "references": [
+      {
+        "reference_ray_range_m": 1.4975047292701613,
+        "ray_hit_chair": true,
+        "range_error_m": -2.8868974988327523e-08,
+        "reference_horizontal_range_m": 1.4576154929532708,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 14,
+    "t": 4.2999999999997485,
+    "references": [
+      {
+        "reference_ray_range_m": 1.4458760270091426,
+        "ray_hit_chair": true,
+        "range_error_m": 2.389728082086151e-08,
+        "reference_horizontal_range_m": 1.405303471098584,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 15,
+    "t": 4.499999999999726,
+    "references": [
+      {
+        "reference_ray_range_m": 1.4023287269276608,
+        "ray_hit_chair": true,
+        "range_error_m": 6.291469900610025e-08,
+        "reference_horizontal_range_m": 1.3603259914959076,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 16,
+    "t": 4.699999999999704,
+    "references": [
+      {
+        "reference_ray_range_m": 1.374249696309855,
+        "ray_hit_chair": true,
+        "range_error_m": 2.0513917114328706e-05,
+        "reference_horizontal_range_m": 1.3326565118570795,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 17,
+    "t": 4.899999999999682,
+    "references": [
+      {
+        "reference_ray_range_m": 1.3504780875304874,
+        "ray_hit_chair": true,
+        "range_error_m": -4.541967379978473e-08,
+        "reference_horizontal_range_m": 1.3087000352191973,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 18,
+    "t": 5.09999999999966,
+    "references": [
+      {
+        "reference_ray_range_m": 1.32288437593437,
+        "ray_hit_chair": true,
+        "range_error_m": 3.7104174979596394e-05,
+        "reference_horizontal_range_m": 1.280384879109376,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 19,
+    "t": 5.299999999999638,
+    "references": [
+      {
+        "reference_ray_range_m": 1.2929700498648788,
+        "ray_hit_chair": true,
+        "range_error_m": 2.2433695345824844e-08,
+        "reference_horizontal_range_m": 1.2477347845362714,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 20,
+    "t": 5.499999999999616,
+    "references": [
+      {
+        "reference_ray_range_m": 1.2628684117906266,
+        "ray_hit_chair": true,
+        "range_error_m": 1.6213114184537858e-08,
+        "reference_horizontal_range_m": 1.216553161438544,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 21,
+    "t": 5.699999999999594,
+    "references": [
+      {
+        "reference_ray_range_m": 1.2412822841254838,
+        "ray_hit_chair": true,
+        "range_error_m": 2.781339170732089e-05,
+        "reference_horizontal_range_m": 1.1947438827219066,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 22,
+    "t": 5.899999999999572,
+    "references": [
+      {
+        "reference_ray_range_m": 1.2147907403475284,
+        "ray_hit_chair": true,
+        "range_error_m": -1.3509156326918514e-07,
+        "reference_horizontal_range_m": 1.1688814131865677,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 23,
+    "t": 6.09999999999955,
+    "references": []
+  },
+  {
+    "frame": 24,
+    "t": 6.299999999999528,
+    "references": [
+      {
+        "reference_ray_range_m": 1.1688477928736545,
+        "ray_hit_chair": true,
+        "range_error_m": 5.687409799981502e-05,
+        "reference_horizontal_range_m": 1.1191306346381753,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 25,
+    "t": 6.499999999999506,
+    "references": [
+      {
+        "reference_ray_range_m": 1.1739385187599483,
+        "ray_hit_chair": true,
+        "range_error_m": 2.8895077456958518e-05,
+        "reference_horizontal_range_m": 1.1243396214187051,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 26,
+    "t": 6.699999999999484,
+    "references": [
+      {
+        "reference_ray_range_m": 1.1774228918217802,
+        "ray_hit_chair": true,
+        "range_error_m": 4.235069464630925e-05,
+        "reference_horizontal_range_m": 1.1272820454312151,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 27,
+    "t": 6.899999999999462,
+    "references": [
+      {
+        "reference_ray_range_m": 1.193122152145869,
+        "ray_hit_chair": true,
+        "range_error_m": -1.2889945377736467e-07,
+        "reference_horizontal_range_m": 1.1456538831369303,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 28,
+    "t": 7.09999999999944,
+    "references": [
+      {
+        "reference_ray_range_m": 1.1985036023842273,
+        "ray_hit_chair": true,
+        "range_error_m": 2.570764652265467e-07,
+        "reference_horizontal_range_m": 1.1521447072801383,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 29,
+    "t": 7.299999999999418,
+    "references": [
+      {
+        "reference_ray_range_m": 1.1561834206043535,
+        "ray_hit_chair": true,
+        "range_error_m": 1.4634510536737366e-06,
+        "reference_horizontal_range_m": 1.1038566662288696,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 30,
+    "t": 7.499999999999396,
+    "references": [
+      {
+        "reference_ray_range_m": 1.1056813728697545,
+        "ray_hit_chair": true,
+        "range_error_m": 1.5300975729326538e-05,
+        "reference_horizontal_range_m": 1.0542689069621192,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 31,
+    "t": 7.699999999999374,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0804810207471507,
+        "ray_hit_chair": true,
+        "range_error_m": 5.856099605239251e-08,
+        "reference_horizontal_range_m": 1.0284059668007763,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 32,
+    "t": 7.899999999999352,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0806225588086575,
+        "ray_hit_chair": true,
+        "range_error_m": 9.492461727766965e-08,
+        "reference_horizontal_range_m": 1.026690852151448,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 33,
+    "t": 8.099999999999374,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0890496089692316,
+        "ray_hit_chair": true,
+        "range_error_m": -2.8513464411794587e-07,
+        "reference_horizontal_range_m": 1.0354627218830756,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 34,
+    "t": 8.299999999999441,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0935253613033429,
+        "ray_hit_chair": true,
+        "range_error_m": 5.921024315291845e-08,
+        "reference_horizontal_range_m": 1.0408756011476026,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 35,
+    "t": 8.499999999999508,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0968235731464562,
+        "ray_hit_chair": true,
+        "range_error_m": 6.919890616075008e-08,
+        "reference_horizontal_range_m": 1.044857663969938,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 36,
+    "t": 8.699999999999575,
+    "references": [
+      {
+        "reference_ray_range_m": 1.110800288522235,
+        "ray_hit_chair": true,
+        "range_error_m": -1.5073975334622958e-07,
+        "reference_horizontal_range_m": 1.0605088240315366,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 37,
+    "t": 8.899999999999642,
+    "references": [
+      {
+        "reference_ray_range_m": 1.1115277130524734,
+        "ray_hit_chair": true,
+        "range_error_m": 2.520698079155892e-07,
+        "reference_horizontal_range_m": 1.0625529343866924,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 38,
+    "t": 9.099999999999708,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0793828938263095,
+        "ray_hit_chair": true,
+        "range_error_m": -2.725609904441484e-07,
+        "reference_horizontal_range_m": 1.0225021709524742,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 39,
+    "t": 9.299999999999775,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0716268312632073,
+        "ray_hit_chair": true,
+        "range_error_m": 1.8386977451712028e-07,
+        "reference_horizontal_range_m": 1.0190247049637002,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 40,
+    "t": 9.499999999999842,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0745609216423857,
+        "ray_hit_chair": true,
+        "range_error_m": 1.253348205221272e-07,
+        "reference_horizontal_range_m": 1.021848546849492,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  },
+  {
+    "frame": 41,
+    "t": 9.699999999999909,
+    "references": [
+      {
+        "reference_ray_range_m": 1.0748955103412732,
+        "ray_hit_chair": true,
+        "range_error_m": 2.2617094441734764e-07,
+        "reference_horizontal_range_m": 1.0221174338869943,
+        "reference_definition": "single visual-mesh ray at depth sample_pixel (box centre if absent); scoring only"
+      }
+    ]
+  }
+]
