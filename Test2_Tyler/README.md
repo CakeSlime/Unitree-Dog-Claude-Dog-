@@ -1,8 +1,8 @@
 # Autonomous Indoor Object Search and Inspection Using the Unitree Go2
 
 **Tyler's individual ENGR 6010 Second Test — November 10, 2026**  
-Repository: https://github.com/CDJ7/Unitree-Dog-Claude-Dog-  
-Submission branch: `engr6010-second-test`; individual deliverable: `Test2_Tyler/`.
+Repository: https://github.com/CakeSlime/Unitree-Dog-Claude-Dog-
+Submission branch: `tyler-second-test-standalone`; individual deliverable: `Test2_Tyler/`.
 
 This submission connects actual pretrained YOLO chair inference to a physically simulated Go2 task, records synchronized dog-simulation data, and implements all required Gymnasium/PPO components. Shared infrastructure and Connor's original `Test2/` results are attributed and preserved. All dog recordings here are **simulated**, with no physical robot data claimed.
 
@@ -38,14 +38,14 @@ The shared scripted physical trot supplies locomotion; this project does not tra
 - **Original individual pilot:** [Phase 2A summary](data/sample/demo_001/summary.json), [GIF](data/sample/demo_001/demo.gif), [replay](report/demo_001_replay.json). Historical uncalibrated depth interpretation is explained in the final report.
 - **RL training:** [new summary](results/phase2c/ppo_submission_20261110/smoke_summary.json), [curves](results/phase2c/ppo_submission_20261110/smoke_learning_curves.png), [final model](results/phase2c/ppo_submission_20261110/final_model.zip), [checkpoints](results/phase2c/ppo_submission_20261110/checkpoints/).
 - **RL comparison:** [metrics](results/phase2c/ppo_submission_eval_20261110/metrics.json), [all 24 episodes](results/phase2c/ppo_submission_eval_20261110/episodes.csv), [figure](report/final_figures/ppo_evaluation.png).
-- **Tests:** [50 passing tests](report/submission_tests.xml). [Final integrity audit](report/submission_integrity.json) checks recording hashes, preservation, delivery and report links.
+- **Tests:** [50 passing tests](report/submission_tests.xml). [Historical development integrity audit](report/submission_integrity.json) records the original full-workspace checks; it does not certify the reduced standalone checkout. See [current publication link audit](report/publication_link_audit.json).
 
 ## Setup and data restoration
 
-Run from the **repository root**, using the existing Python 3.12 `.venv` in WSL. Reuse installed CPU Torch. No ROS or physical SDK is needed.
+Run from the **standalone repository root**. This checkout does not bundle `Phase_2_Investigator/`, `go2_stream/`, the simulator or a virtual environment. Follow [pinned shared-module and Python setup](PUBLICATION_SETUP.md) first. Installing pip packages alone is insufficient. No ROS or physical SDK is needed.
 
 ```bash
-git submodule update --init --recursive
+# First obtain the shared modules using PUBLICATION_SETUP.md; this standalone repository has no submodules.
 export MUJOCO_GL=egl OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
 export MPLCONFIGDIR=/tmp/tyler-matplotlib
 # Only when dependencies are missing; do not replace an existing working environment:
@@ -61,7 +61,7 @@ uv pip check --python .venv/bin/python
 
 The simulator revision used was `d6e54647541fb7b048db5d9817457ee11d0e2cf9`. Full environment: [freeze](report/phase2c/environment.freeze.txt). YOLO source: [THU-MIG](https://github.com/THU-MIG/yolov10), [ONNX Community export](https://huggingface.co/onnx-community/yolov10n). The distributor identifies AGPL-3.0. URL/hash/preprocessing are in [adapters/yolo.py](adapters/yolo.py). Downloaded weights are reproducibly obtained from source and excluded as cache; all individual PPO weights are included.
 
-All original sensor recordings remain locally intact. [Archive manifest](recording_archives/manifest.json) enumerates complete raw streams, split into ≤40 MiB files with SHA-256. Summaries, state/event tables, metadata, source snapshots, inspections, plots and GIFs stay browsable on GitHub. Restore verifies hashes and refuses conflicting existing files. `package_recordings.py verify` checks archives without creating missing raw files. Some interrupted historical recordings intentionally have no finalized summary; these are not counted as successful trials.
+Original sensor recordings remain intact in the development checkout. The 2.57 GiB archive parts are local but excluded from this published Git branch; uploading the dataset is still pending. See the [Release upload/download plan](RECORDINGS_RELEASE.md). [Archive manifest](recording_archives/manifest.json) enumerates complete raw streams, split into ≤40 MiB files with SHA-256. The publication correction restores missing Phase 2B/2C summaries, state/event tables, metadata, source snapshots, inspections, plots and GIFs as small browsable files. They must be committed with this correction; they are distinct from the raw stream archives. After downloading every manifest-listed Release asset into `recording_archives/`, restore verifies hashes and refuses conflicting existing files. `package_recordings.py verify` checks archives without creating missing raw files. Some interrupted historical recordings intentionally have no finalized summary; these are not counted as successful trials.
 
 ## Bounded reproduction
 
@@ -99,4 +99,4 @@ The application supplies the environment, 38-value observable vector, two bounde
 
 [CONTRIBUTIONS.md](CONTRIBUTIONS.md) and [Phase 2C attribution](phase2c/CONTRIBUTIONS.md) distinguish shared infrastructure, third-party frameworks, adapted algorithms and new individual experiments developed with coding-agent assistance. No original `Test2/` files are modified or presented as newly trained individual evidence.
 
-Review the [final submission audit](report/Final_Submission_Audit.md) before publishing. Nothing has been staged, committed or pushed automatically. The audit contains an explicit allowlist and safe publication commands. After reviewing the published branch and evidence, submit its GitHub address on Canvas. Hardware data, robust unknown-target inspection, useful learned PPO performance and actual policy transfer remain absent; they are explicitly disclosed in the report.
+The individual code/report submission is published at [tyler-second-test-standalone](https://github.com/CakeSlime/Unitree-Dog-Claude-Dog-/tree/tyler-second-test-standalone/Test2_Tyler). This publication correction has not been committed or pushed by the agent; raw archive Release upload and Canvas submission remain unconfirmed. See the [publication audit](report/Final_Submission_Audit.md), [dependency setup](PUBLICATION_SETUP.md) and [dataset delivery plan](RECORDINGS_RELEASE.md). Hardware data, robust unknown-target inspection, useful learned PPO performance and actual policy transfer remain absent; they are explicitly disclosed in the report.

@@ -6,4 +6,9 @@ __pycache__/
 *.pyc
 .env*
 
-/Test2_Tyler/recording_archives/
+/Test2_Tyler/recording_archives/*.zip.part*
+
+# Optional pinned shared infrastructure checkout and local symlinks
+.shared-go2/
+/Phase_2_Investigator
+/go2_stream

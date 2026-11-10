@@ -53,9 +53,11 @@ text=f'''# ENGR 6010 — Second Test: Individual Final Technical Report
 **Autonomous Indoor Object Search and Inspection Using the Unitree Go2**  
 **Student:** Tyler (individual submission)  
 **Date:** November 10, 2026  
-**Repository:** https://github.com/CDJ7/Unitree-Dog-Claude-Dog-  
-**Submission branch:** `engr6010-second-test`  
+**Repository:** https://github.com/CakeSlime/Unitree-Dog-Claude-Dog-
+**Submission branch:** `tyler-second-test-standalone`
 **Individual workspace:** `Test2_Tyler/`
+
+**Publication:** Code/report published on the standalone branch; raw archive assets remain pending. Publication corrections do not alter experimental outcomes.
 
 ## Abstract
 
@@ -123,7 +125,7 @@ These nine trials contain {sum(d['frames'] for d in trials.values())} recorded f
 
 ### 4.3 Data delivery and reproducibility
 
-Raw sensor folders are delivered losslessly in [recording archive parts](../recording_archives/manifest.json), each at most 40 MiB. Originals remain locally intact. Summaries, metadata, event/state tables, inspection images, plots, GIFs and verification records remain directly browsable. Run `package_recordings.py restore` after cloning to reconstruct raw files at their original paths; existing differing files cause a refusal, not overwrite. The archive manifest includes every part's length and SHA-256. This packaging preserves data while reducing Git's active file count. It does not fabricate, subsample or delete recordings.
+Raw sensor folders are preserved losslessly in locally prepared archives described by [recording archive parts](../recording_archives/manifest.json), each at most 40 MiB. Archive parts are not included in this standalone Git branch; Release asset publication remains pending. See [dataset delivery](../RECORDINGS_RELEASE.md) and [shared dependency setup](../PUBLICATION_SETUP.md). Originals remain intact in the development checkout. Summaries, metadata, event/state tables, inspection images, plots, GIFs and verification records remain directly browsable. Download all manifest-listed Release parts before running `package_recordings.py restore` after cloning to reconstruct raw files at their original paths; existing differing files cause a refusal, not overwrite. The archive manifest includes every part's length and SHA-256. This packaging preserves data while reducing Git's active file count. It does not fabricate, subsample or delete recordings.
 
 ## 5. Q3 — RL formulation and complete PPO components
 
@@ -196,7 +198,7 @@ timeout 110s .venv/bin/python -B -m Test2_Tyler.q3_rl.evaluate_phase2c \\
   --out Test2_Tyler/results/phase2c/eval_reproduction_NEW --episodes 8 --seed 811110
 ```
 
-Fresh actual-simulation commands are in the [Phase 2C README](../phase2c/README.md) and [individual README](../README.md). Recorded metadata contains full historical trial configuration; scene/model and detector revisions must match before expecting identical results. Simulation uses the pinned submodule at `d6e54647541fb7b048db5d9817457ee11d0e2cf9`. Set up that submodule after cloning. Do not run multiple simulators concurrently. Document conversion is reproducible through [export_report.py](../submission_tools/export_report.py); Markdown is the canonical version.
+Fresh actual-simulation commands are in the [Phase 2C README](../phase2c/README.md) and [individual README](../README.md). Recorded metadata contains full historical trial configuration; scene/model and detector revisions must match before expecting identical results. Simulation uses the pinned submodule at `d6e54647541fb7b048db5d9817457ee11d0e2cf9`. This standalone checkout has no submodule entry. Follow [pinned dependency setup](../PUBLICATION_SETUP.md) to obtain the shared modules and initialize their simulator submodule; plain submodule update in the standalone checkout does nothing. Do not run multiple simulators concurrently. Document conversion is reproducible through [export_report.py](../submission_tools/export_report.py); Markdown is the canonical version.
 
 ## 7. Discussion and conclusions
 

@@ -1,0 +1,102 @@
+{
+  "checkout": "/home/tyler/projects/engr6010/ENGR6010-Tyler-Final",
+  "local_branch": "main",
+  "tracking_branch": "personal/tyler-second-test-standalone",
+  "published_baseline": "2a15dd7",
+  "publication_url": "https://github.com/CakeSlime/Unitree-Dog-Claude-Dog-/tree/tyler-second-test-standalone/Test2_Tyler",
+  "original_broken_evidence_links_in_reviewed_documents": [
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "data/phase2c/calibration_visible_002/inspection/annotated.png"
+    },
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "data/phase2c/calibration_visible_002/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "data/phase2c/calibration_visible_002/demo.gif"
+    },
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "data/phase2c/calibration_visible_002/inspection/observation.json"
+    },
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "data/phase2c/explore_context_002/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "data/phase2c/explore_context_002/demo.gif"
+    },
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "data/phase2c/absent_001/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/README.md",
+      "missing_in_published_tree": "recording_archives/manifest.json"
+    },
+    {
+      "document": "Test2_Tyler/report/ENGR6010_Second_Test_Final_Report.md",
+      "missing_in_published_tree": "../data/phase2c/calibration_visible_002/inspection/annotated.png"
+    },
+    {
+      "document": "Test2_Tyler/report/ENGR6010_Second_Test_Final_Report.md",
+      "missing_in_published_tree": "../data/phase2c/calibration_visible_002/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/report/ENGR6010_Second_Test_Final_Report.md",
+      "missing_in_published_tree": "../data/phase2c/calibration_visible_002/demo.gif"
+    },
+    {
+      "document": "Test2_Tyler/report/ENGR6010_Second_Test_Final_Report.md",
+      "missing_in_published_tree": "../recording_archives/manifest.json"
+    },
+    {
+      "document": "Test2_Tyler/report/Final_Submission_Audit.md",
+      "missing_in_published_tree": "../data/phase2c/calibration_visible_002/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/report/Final_Submission_Audit.md",
+      "missing_in_published_tree": "../data/phase2c/calibration_visible_002/inspection/annotated.png"
+    },
+    {
+      "document": "Test2_Tyler/report/Final_Submission_Audit.md",
+      "missing_in_published_tree": "../recording_archives/manifest.json"
+    },
+    {
+      "document": "Test2_Tyler/report/Phase2B_Implementation_Report.md",
+      "missing_in_published_tree": "../data/phase2b/visible_20261110/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/report/Phase2B_Implementation_Report.md",
+      "missing_in_published_tree": "../data/phase2b/near_20261110/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/report/Phase2B_Implementation_Report.md",
+      "missing_in_published_tree": "../data/phase2b/occluded_20261110/summary.json"
+    },
+    {
+      "document": "Test2_Tyler/report/Phase2B_Implementation_Report.md",
+      "missing_in_published_tree": "../data/phase2b/shifted_20261110/summary.json"
+    }
+  ],
+  "relative_links_checked": 206,
+  "remaining_missing_or_unlisted_links": [],
+  "restored_original_nonstream_evidence_files": 328,
+  "restored_evidence_bytes": 50697230,
+  "restored_evidence_byte_identical": true,
+  "experiment_source_results_tests_unchanged": true,
+  "archive_manifest_byte_identical": true,
+  "local_archive_parts_sha256_verified": 78,
+  "archive_bytes": 2759741405,
+  "archive_remote_status": "not uploaded or verified by this audit; Release plan only",
+  "shared_dependencies": "absent from standalone checkout; import compatibility verified using pinned original development checkout; fresh sparse-clone procedure documented, not executed",
+  "docx_xml_and_pdf_signature_valid": true,
+  "release_helper_syntax_checked": true,
+  "release_helper_remote_execution": "not performed; gh unavailable",
+  "no_stage_commit_push_performed": true,
+  "correction_allowlist_paths": 342,
+  "passed": true
+}
