@@ -39,7 +39,11 @@ def main(action):
             assert path.stat().st_size == p['bytes'] and digest(path) == p['sha256'], path
         elif action != 'download':
             raise FileNotFoundError(path)
-    release = json.loads(gh('api', f'repos/{REPO}/releases/tags/{TAG}'))
+    releases = json.loads(gh('api', f'repos/{REPO}/releases?per_page=100'))
+    matches = [r for r in releases if r.get('tag_name') == TAG]
+    if len(matches) != 1:
+        raise RuntimeError(f'Expected one release for {TAG}, found {len(matches)}')
+    release = matches[0]
     assets = {a['name']: a for a in release['assets']}
     for p in files:
         name = p['file']
