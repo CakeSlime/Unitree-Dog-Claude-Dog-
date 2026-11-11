@@ -4,7 +4,7 @@
 Repository: https://github.com/CakeSlime/Unitree-Dog-Claude-Dog-
 Submission branch: `tyler-second-test-standalone`; individual deliverable: `Test2_Tyler/`.
 
-This submission connects actual pretrained YOLO chair inference to a physically simulated Go2 task, records synchronized dog-simulation data, and implements all required Gymnasium/PPO components. Shared infrastructure and Connor's original `Test2/` results are attributed and preserved. All dog recordings here are **simulated**, with no physical robot data claimed.
+This submission connects actual pretrained YOLO chair inference to a physically simulated Go2 task, records synchronized dog-simulation data, and implements all required Gymnasium/PPO components. Shared infrastructure and Connor's original `Test2/` results are attributed and preserved. 
 
 Start with the [final technical report](report/ENGR6010_Second_Test_Final_Report.md), [PDF](report/ENGR6010_Second_Test_Final_Report.pdf), [DOCX](report/ENGR6010_Second_Test_Final_Report.docx) and [requirement-by-requirement submission audit](report/Final_Submission_Audit.md).
 
